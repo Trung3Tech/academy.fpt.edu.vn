@@ -1,6 +1,6 @@
 [section padding="0px 0px 40px 0px" padding__sm="0px 0px 20px 0px" bg="9658" bg_size="cover" bg_pos="50% 50%" class="aptech-ts-topbar aptech-ts-hero"]
 
-[row style="small" v_align="middle" padding="10px 0px 10px 0px"]
+[row style="small" v_align="middle" padding="10px 0px 5px 0px"]
 
 [col span="6" span__sm="12" align="left"]
 
@@ -11,7 +11,7 @@
 
 [ux_text text_align="right"]
 
-<span class="aptech-ts-phone-pill">HOTLINE ACADEMY — CẦN ĐIỀN TRƯỚC KHI PUBLISH</span>
+<span class="aptech-ts-phone-pill">FAI TP.HCM 0775782581 - FAI Cần Thơ 0775782581</span>
 
 [/ux_text]
 
@@ -19,7 +19,7 @@
 
 [/row]
 
-[row style="small" v_align="bottom" padding="40px 0px 0px 0px" padding__sm="20px 0px 0px 0px"]
+[row style="small" v_align="bottom" padding="10px 0px 0px 0px" padding__sm="8px 0px 0px 0px"]
 
 [col span="7" span__sm="12" color="light" animate="fadeInDown"]
 
@@ -35,7 +35,7 @@
 Thông tin chương trình học, lịch khai giảng, học bổng, chế độ giới thiệu việc làm...
 
 [/ux_text]
-[contact-form-7 id="9838"]
+[contact-form-7 id="66675a4" title="Form đăng ký tư vấn tại tại các trang con chương trình học"]
 
 [/col]
 
@@ -490,19 +490,22 @@ FPT Aptech còn hợp tác liên thông với các trường đại học hàng 
 [/row]
 [row_inner]
 
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col" animate="fadeInUp"]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
 
-[ux_image id="9777" width="70" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener"]
-
-[/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col" animate="fadeInUp"]
-
-[ux_image id="9770" width="70" link="https://lincoln.edu.my/" target="_blank" rel="noopener"]
+[ux_image id="9835" width="90"]
+[ux_image id="9777" width="70" class="aptech-ts-transfer-logo" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener"]
 
 [/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col" animate="fadeInUp"]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
 
-[ux_image id="9784" width="70" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener"]
+[ux_image id="9972" width="90"]
+[ux_image id="9770" width="70" class="aptech-ts-transfer-logo" link="https://lincoln.edu.my/" target="_blank" rel="noopener"]
+
+[/col_inner]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
+
+[ux_image id="9758" width="90"]
+[ux_image id="9784" width="70" class="aptech-ts-transfer-logo" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener"]
 
 [/col_inner]
 
@@ -807,7 +810,7 @@ Bạn có muốn thử sức với ngành lập trình?
 [/col]
 [col span="5" span__sm="12" animate="fadeInRight"]
 
-[contact-form-7 id="9838"]
+[contact-form-7 id="66675a4" title="Form đăng ký tư vấn tại tại các trang con chương trình học"]
 
 [/col]
 

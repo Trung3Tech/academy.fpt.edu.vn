@@ -3231,10 +3231,6 @@ html {
 .aptech-ts-hero {
   position: relative;
   overflow: hidden;
-  color: #fff;
-  /* bg="9658" (shortcode) now supplies the real diagonal orange/navy artwork from the
-     source site — background-color here is just a fallback flash-guard while it loads. */
-  background-color: #16305e;
 }
 
 .aptech-ts-hero-form-col {

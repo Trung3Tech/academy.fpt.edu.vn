@@ -1,6 +1,6 @@
-[section padding="0px 0px 40px 0px" padding__sm="0px 0px 20px 0px" bg="9908" bg_size="cover" bg_pos="50% 50%" class="aptech-ts-topbar aptech-ts-hero"]
+[section padding="10px 0px 10px 0px" bg_color="#ffffff" class="aptech-ts-topbar"]
 
-[row style="small" v_align="middle" padding="10px 0px 5px 0px"]
+[row style="small" v_align="middle"]
 
 [col span="6" span__sm="12" align="left"]
 
@@ -11,7 +11,7 @@
 
 [ux_text text_align="right"]
 
-<span class="aptech-ts-phone-pill">FAI TP.HCM 0775782581 - FAI Cần Thơ 0775782581</span>
+<span class="aptech-ts-phone-pill">HOTLINE ACADEMY — CẦN ĐIỀN TRƯỚC KHI PUBLISH</span>
 
 [/ux_text]
 
@@ -19,14 +19,18 @@
 
 [/row]
 
-[row style="small" v_align="bottom" padding="10px 0px 0px 0px" padding__sm="8px 0px 0px 0px"]
+[/section]
 
-[col span="7" span__sm="12" color="light" animate="fadeInDown"]
+[section padding="40px 0px 40px 0px" padding__sm="20px 0px 20px 0px" class="aptech-ts-hero"]
 
-[ux_image id="9823" image_size="original" width="100" parallax="3"]
+[row style="small" v_align="bottom"]
+
+[col span="7" span__sm="12" color="light"]
+
+[ux_image id="9823" image_size="original" width="100"]
 
 [/col]
-[col span="5" span__sm="12" color="light" class="aptech-ts-hero-form-col" animate="fadeInRight"]
+[col span="5" span__sm="12" color="light" class="aptech-ts-hero-form-col"]
 
 <div id="aptech-ts-form"></div>
 [ux_text text_align="center" class="aptech-ts-hero-form-title"]
@@ -35,7 +39,7 @@
 Thông tin chương trình học, lịch khai giảng, học bổng, chế độ giới thiệu việc làm...
 
 [/ux_text]
-[contact-form-7 id="66675a4" title="Form đăng ký tư vấn tại tại các trang con chương trình học"]
+[contact-form-7 id="9838"]
 
 [/col]
 
@@ -45,60 +49,11 @@ Thông tin chương trình học, lịch khai giảng, học bổng, chế độ
 
 [/section]
 
-[section padding="36px 0px 36px 0px" padding__sm="24px 0px 24px 0px" class="aptech-ts-stats-bar"]
-
-[row v_align="middle"]
-
-[col span="3" span__sm="6" align="center" animate="fadeInUp"]
-
-[ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">26</span>+</span>
-<span class="aptech-ts-stat-label">Năm đào tạo lập trình</span>
-
-[/ux_text]
-
-[/col]
-[col span="3" span__sm="6" align="center" animate="fadeInUp"]
-
-[ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">4</span></span>
-<span class="aptech-ts-stat-label">Học kỳ chuyên sâu tích hợp AI</span>
-
-[/ux_text]
-
-[/col]
-[col span="3" span__sm="6" align="center" animate="fadeInUp"]
-
-[ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">70</span>%</span>
-<span class="aptech-ts-stat-label">Thời lượng thực hành</span>
-
-[/ux_text]
-
-[/col]
-[col span="3" span__sm="6" align="center" animate="fadeInUp"]
-
-[ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">18</span>+</span>
-<span class="aptech-ts-stat-label">Doanh nghiệp liên kết tuyển dụng</span>
-
-[/ux_text]
-
-[/col]
-
-[/row]
-
-[/section]
-
 [section padding="60px 0px 60px 0px" padding__sm="30px 0px 30px 0px"]
 
 [row]
 
-[col span="12" animate="fadeInUp"]
+[col span="12"]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
 
@@ -140,7 +95,7 @@ Bước sang tuổi 26, FPT Aptech mang sứ mệnh đồng hành và dìu dắt
 
 [col span="3" span__sm="6" span__md="6"]
 
-[ux_image_box img="9862" image_width="100" text_align="center" class="aptech-ts-audience-card" animate="fadeInUp"]
+[ux_image_box img="9862" image_width="100" text_align="center" class="aptech-ts-audience-card"]
 
 <h3>Học sinh THPT/GDTX</h3>
 
@@ -149,7 +104,7 @@ Bước sang tuổi 26, FPT Aptech mang sứ mệnh đồng hành và dìu dắt
 [/col]
 [col span="3" span__sm="6" span__md="6"]
 
-[ux_image_box img="9899" image_width="100" text_align="center" class="aptech-ts-audience-card" animate="fadeInUp"]
+[ux_image_box img="9899" image_width="100" text_align="center" class="aptech-ts-audience-card"]
 
 <h3>Sinh viên</h3>
 
@@ -158,7 +113,7 @@ Bước sang tuổi 26, FPT Aptech mang sứ mệnh đồng hành và dìu dắt
 [/col]
 [col span="3" span__sm="6" span__md="6"]
 
-[ux_image_box img="9892" image_width="100" text_align="center" class="aptech-ts-audience-card" animate="fadeInUp"]
+[ux_image_box img="9892" image_width="100" text_align="center" class="aptech-ts-audience-card"]
 
 <h3>Người đi làm</h3>
 
@@ -167,7 +122,7 @@ Bước sang tuổi 26, FPT Aptech mang sứ mệnh đồng hành và dìu dắt
 [/col]
 [col span="3" span__sm="6" span__md="6"]
 
-[ux_image_box img="9824" image_width="100" text_align="center" class="aptech-ts-audience-card" animate="fadeInUp"]
+[ux_image_box img="9824" image_width="100" text_align="center" class="aptech-ts-audience-card"]
 
 <h3>Bộ đội xuất ngũ & dân quân tự vệ</h3>
 
@@ -196,7 +151,7 @@ Bước sang tuổi 26, FPT Aptech mang sứ mệnh đồng hành và dìu dắt
 [/row]
 [row_inner v_align="top"]
 
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9884" width="30"]
 [ux_text text_align="center"]
@@ -206,7 +161,7 @@ Với 26 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam
 [/ux_text]
 
 [/col_inner]
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9885" width="30"]
 [ux_text text_align="center"]
@@ -216,7 +171,7 @@ Với 26 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam
 [/ux_text]
 
 [/col_inner]
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9886" width="30"]
 [ux_text text_align="center"]
@@ -226,7 +181,7 @@ Với 26 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam
 [/ux_text]
 
 [/col_inner]
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9887" width="30"]
 [ux_text text_align="center"]
@@ -236,7 +191,7 @@ Với 26 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam
 [/ux_text]
 
 [/col_inner]
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9888" width="30"]
 [ux_text text_align="center"]
@@ -246,7 +201,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col_inner]
-[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon" animate="fadeInUp"]
+[col_inner span="4" span__sm="6" padding="15px" class="aptech-ts-benefit-icon"]
 
 [ux_image id="9889" width="30"]
 [ux_text text_align="center"]
@@ -284,7 +239,7 @@ Mỗi học kỳ gồm phần thông tin chương trình học và 1 video đồ
 
 [row v_align="middle" class="aptech-ts-semester-row"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -295,12 +250,12 @@ Mỗi học kỳ gồm phần thông tin chương trình học và 1 video đồ
 
 Sinh viên sẽ được học kỹ năng thiết kế website bằng công cụ Figma và lập trình web với PHP-Laravel Framework. Từ đó hiểu rõ cách thiết kế 1 website, phát triển website động chạy được trên các màn hình có kích thước khác nhau sử dụng HTML, CSS, JavaScript, jQuery, React kết hợp với PHP-Laravel framework. Ngoài ra, người học còn nắm vững cách chuẩn hóa và lập trình Database cùng quy trình kiểm thử phần mềm.
 
-<span class="aptech-ts-project-tag"><strong>eProject:</strong> Laravel and PHP Application Development + Web Design for Responsive</span>
+<strong>eProject:</strong> Laravel and PHP Application Development + Web Design for Responsive
 
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_video url="https://www.youtube.com/watch?v=vBx808h06LA" class="aptech-ts-semester-video"]
 
@@ -316,7 +271,7 @@ Sinh viên sẽ được học kỹ năng thiết kế website bằng công cụ
 
 [row v_align="middle" class="aptech-ts-semester-row is-reversed"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_video url="https://www.youtube.com/watch?v=avKlisAnQ68" class="aptech-ts-semester-video"]
 
@@ -327,7 +282,7 @@ Sinh viên sẽ được học kỹ năng thiết kế website bằng công cụ
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -338,7 +293,7 @@ Sinh viên sẽ được học kỹ năng thiết kế website bằng công cụ
 
 Sinh viên được học chuyên sâu về công nghệ JAVA SE và JavaFX để phát triển các ứng dụng có thể chạy được trên nhiều thiết bị khác nhau, lập trình hướng đối tượng bằng ngôn ngữ C#. Đi sâu vào lập trình hướng đối tượng (OOP), lập trình hàm, lập trình với database, Swing và JavaFX để tạo ứng dụng desktop.
 
-<span class="aptech-ts-project-tag"><strong>Project:</strong> Java Desktop Application / Python / NodeJS + AI</span>
+<strong>Project:</strong> Java Desktop Application / Python / NodeJS + AI
 
 [/ux_text]
 
@@ -348,7 +303,7 @@ Sinh viên được học chuyên sâu về công nghệ JAVA SE và JavaFX đ�
 
 [row v_align="middle" class="aptech-ts-semester-row"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -359,12 +314,12 @@ Sinh viên được học chuyên sâu về công nghệ JAVA SE và JavaFX đ�
 
 Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ liệu với ngôn ngữ lập trình Python, đi sâu vào lập trình website với NodeJS, ASP.NET, Web API, Azure Cloud. Kết hợp với kiến thức Front-end ở Học kỳ 1, sinh viên có thể xây dựng website chuyên nghiệp với quy mô lớn.
 
-<span class="aptech-ts-project-tag"><strong>eProject:</strong> Crafting .NET Applications, AI Integration</span>
+<strong>eProject:</strong> Crafting .NET Applications, AI Integration
 
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_video url="https://www.youtube.com/watch?v=ysO71qcJhko" class="aptech-ts-semester-video"]
 
@@ -380,7 +335,7 @@ Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ 
 
 [row v_align="middle" class="aptech-ts-semester-row is-reversed"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_video url="https://www.youtube.com/watch?v=zIFyF5UYHoQ" class="aptech-ts-semester-video"]
 
@@ -391,7 +346,7 @@ Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ 
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -402,7 +357,7 @@ Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ 
 
 Sinh viên được cách thiết kế, phát triển và triển khai các web/enterprise application một cách thuần thục bằng công nghệ JAVA EE, lập trình thành thạo ứng dụng trên nhiều nền tảng di động (Android, iOS,…). Từ đó các bạn có thể triển khai các dự án có quy mô lớn, đa nền tảng.
 
-<span class="aptech-ts-project-tag"><strong>Project:</strong> Java Desktop Application / Python / NodeJS + AI</span>
+<strong>Project:</strong> Java Desktop Application / Python / NodeJS + AI
 
 [/ux_text]
 
@@ -429,16 +384,16 @@ Sinh viên được cách thiết kế, phát triển và triển khai các web/
 [/row]
 [row_inner class="aptech-ts-job-icon-grid"]
 
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9833" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9834" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9835" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9836" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9837" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9838" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9839" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9840" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9841" width="120"][/col_inner]
-[col_inner span="2" span__sm="4" span__md="3" padding="5px" align="center"][ux_image id="9842" width="120"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9833" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9834" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9835" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9836" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9837" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9838" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9839" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9840" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9841" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center"][ux_image id="9842" width="90"][/col_inner]
 
 [/row_inner]
 
@@ -468,9 +423,9 @@ FPT Aptech là đơn vị duy nhất được chuyển đổi tín chỉ, học 
 [/row]
 [row_inner]
 
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"][ux_image id="9852" width="90"][ux_text text_align="center" class="mb-0"]FPT University Hà Nội[/ux_text][/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"][ux_image id="9853" width="90"][ux_text text_align="center" class="mb-0"]FPT University TP.HCM[/ux_text][/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"][ux_image id="9851" width="90"][ux_text text_align="center" class="mb-0"]FPT University Đà Nẵng[/ux_text][/col_inner]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"][ux_image id="9852" width="90"][ux_text text_align="center" class="mb-0"]FPT University Hà Nội[/ux_text][/col_inner]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"][ux_image id="9853" width="90"][ux_text text_align="center" class="mb-0"]FPT University TP.HCM[/ux_text][/col_inner]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"][ux_image id="9851" width="90"][ux_text text_align="center" class="mb-0"]FPT University Đà Nẵng[/ux_text][/col_inner]
 
 [/row_inner]
 [row]
@@ -490,22 +445,19 @@ FPT Aptech còn hợp tác liên thông với các trường đại học hàng 
 [/row]
 [row_inner]
 
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"]
 
-[ux_image id="9896" width="90"]
-[ux_image id="9890" width="70" class="aptech-ts-transfer-logo" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener"]
-
-[/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
-
-[ux_image id="9931" width="90"]
-[ux_image id="9864" width="70" class="aptech-ts-transfer-logo" link="https://lincoln.edu.my/" target="_blank" rel="noopener"]
+[ux_image id="9890" width="70" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener"]
 
 [/col_inner]
-[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col aptech-ts-transfer-photo" animate="fadeInUp"]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"]
 
-[ux_image id="9831" width="90"]
-[ux_image id="9901" width="70" class="aptech-ts-transfer-logo" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener"]
+[ux_image id="9864" width="70" link="https://lincoln.edu.my/" target="_blank" rel="noopener"]
+
+[/col_inner]
+[col_inner span="4" span__sm="12" align="center" class="aptech-ts-transfer-col"]
+
+[ux_image id="9901" width="70" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener"]
 
 [/col_inner]
 
@@ -624,11 +576,11 @@ Hơn 13 năm kinh nghiệm giảng dạy Lập trình, Thầy Nguyễn Duy Hoàn
 [/row]
 [row_inner]
 
-[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon" animate="fadeInUp"][ux_image id="9818" width="80"][/col_inner]
-[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon" animate="fadeInUp"][ux_image id="9819" width="80"][/col_inner]
-[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon" animate="fadeInUp"][ux_image id="9820" width="80"][/col_inner]
-[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon" animate="fadeInUp"][ux_image id="9821" width="80"][/col_inner]
-[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon" animate="fadeInUp"][ux_image id="9822" width="80"][/col_inner]
+[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon"][ux_image id="9818" width="80"][/col_inner]
+[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon"][ux_image id="9819" width="80"][/col_inner]
+[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon"][ux_image id="9820" width="80"][/col_inner]
+[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon"][ux_image id="9821" width="80"][/col_inner]
+[col_inner span="2" span__sm="4" align="center" class="aptech-ts-skill-icon"][ux_image id="9822" width="80"][/col_inner]
 
 [/row_inner]
 
@@ -775,26 +727,36 @@ Hơn 13 năm kinh nghiệm giảng dạy Lập trình, Thầy Nguyễn Duy Hoàn
 [/col]
 
 [/row]
-[row]
+[row_inner]
 
-[col span="12" animate="fadeInUp"]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9866" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9867" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9868" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9869" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9870" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9871" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9872" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9873" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9874" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9875" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9876" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9877" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9878" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9879" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9880" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9881" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9882" width="90"][/col_inner]
+[col_inner span="2" span__sm="4" span__md="3" padding="10px" align="center" class="aptech-ts-partner-logo"][ux_image id="9883" width="90"][/col_inner]
 
-<div class="aptech-ts-marquee"><div class="aptech-ts-marquee-track">
-[ux_image id="9866" width="90"][ux_image id="9867" width="90"][ux_image id="9868" width="90"][ux_image id="9869" width="90"][ux_image id="9870" width="90"][ux_image id="9871" width="90"][ux_image id="9872" width="90"][ux_image id="9873" width="90"][ux_image id="9874" width="90"][ux_image id="9875" width="90"][ux_image id="9876" width="90"][ux_image id="9877" width="90"][ux_image id="9878" width="90"][ux_image id="9879" width="90"][ux_image id="9880" width="90"][ux_image id="9881" width="90"][ux_image id="9882" width="90"][ux_image id="9883" width="90"]
-[ux_image id="9866" width="90"][ux_image id="9867" width="90"][ux_image id="9868" width="90"][ux_image id="9869" width="90"][ux_image id="9870" width="90"][ux_image id="9871" width="90"][ux_image id="9872" width="90"][ux_image id="9873" width="90"][ux_image id="9874" width="90"][ux_image id="9875" width="90"][ux_image id="9876" width="90"][ux_image id="9877" width="90"][ux_image id="9878" width="90"][ux_image id="9879" width="90"][ux_image id="9880" width="90"][ux_image id="9881" width="90"][ux_image id="9882" width="90"][ux_image id="9883" width="90"]
-</div></div>
-
-[/col]
-
-[/row]
+[/row_inner]
 
 [/section]
 
-[section padding="70px 0px 70px 0px" class="aptech-ts-cta-mid"]
+[section bg="9903" bg_size="cover" bg_pos="50% 50%" padding="70px 0px 70px 0px" class="aptech-ts-cta-mid"]
 
 [row]
 
-[col span="7" span__sm="12" color="light" animate="fadeInLeft"]
+[col span="7" span__sm="12" color="light"]
 
 [ux_text font_size="1.6" font_size__sm="1.1" text_color="#FFFFFF"]
 
@@ -808,14 +770,12 @@ Bạn có muốn thử sức với ngành lập trình?
 [/ux_text]
 
 [/col]
-[col span="5" span__sm="12" animate="fadeInRight"]
+[col span="5" span__sm="12"]
 
-[contact-form-7 id="66675a4" title="Form đăng ký tư vấn tại tại các trang con chương trình học"]
+[contact-form-7 id="9838"]
 
 [/col]
 
 [/row]
 
 [/section]
-
-<div class="aptech-ts-sticky-cta"><a href="#aptech-ts-form" class="button">Đăng ký tư vấn ngay</a></div>
