@@ -1,0 +1,23 @@
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+*.svg
+*.bmp
+*.tif
+*.tiff
+*.ico
+*.heic
+*.avif
+
+# Videos
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.m4v
+*.wmv
+*.flv

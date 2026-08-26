@@ -2,11 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* DemoUser Hide faq-custom-row */
-.faq-custom-row {
-  display: none !important;
-}
-
 .news_area {
   display: none;
 }
@@ -2711,5 +2706,884 @@ html {
 
   50% {
     transform: scale(1.1);
+  }
+}
+
+/* === FPT APTECH V2 MODERN STYLES === */
+/**
+ * STYLESHEET: LẬP TRÌNH VIÊN QUỐC TẾ FPT APTECH (PHIÊN BẢN AI-READY 2026)
+ * Theme: Flatsome Compatible / UX Builder
+ * Author: FAI Academy Tech Team
+ */
+
+:root {
+  --fpt-orange: #EF7125;
+  --fpt-orange-hover: #D65A12;
+  --fpt-orange-light: #FFF2E8;
+  --fpt-navy: #1E1A4C;
+  --fpt-dark: #0A1128;
+  --fpt-blue: #0056B3;
+  --fpt-cyan: #00C6FF;
+  --fpt-gradient-primary: linear-gradient(135deg, #EF7125 0%, #F59E0B 100%);
+  --fpt-gradient-ai: linear-gradient(135deg, #1E1A4C 0%, #0A1128 50%, #0056B3 100%);
+  --fpt-gradient-glow: linear-gradient(90deg, #EF7125, #00C6FF, #EF7125);
+  --fpt-card-bg: rgba(255, 255, 255, 0.95);
+  --fpt-card-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  --fpt-card-shadow-hover: 0 18px 40px rgba(239, 113, 37, 0.18);
+  --fpt-radius-lg: 20px;
+  --fpt-radius-md: 12px;
+  --fpt-radius-sm: 8px;
+}
+
+/* ==========================================================================
+   1. GLOBAL & TYPOGRAPHY ENHANCEMENTS
+   ========================================================================== */
+.fpt-v2-heading-gradient {
+  background: linear-gradient(135deg, #1E1A4C 20%, #EF7125 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800 !important;
+  letter-spacing: -0.5px;
+}
+
+.fpt-v2-heading-light {
+  color: #FFFFFF !important;
+  font-weight: 800 !important;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.fpt-v2-badge-ai {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 16px;
+  background: rgba(239, 113, 37, 0.15);
+  border: 1px solid rgba(239, 113, 37, 0.4);
+  border-radius: 50px;
+  color: #FFB37C;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  backdrop-filter: blur(8px);
+  margin-bottom: 15px;
+}
+
+.fpt-v2-badge-ai::before {
+  content: '';
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background: #00F2FE;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #00F2FE;
+  animation: fptPulse 1.8s infinite;
+}
+
+@keyframes fptPulse {
+  0% { transform: scale(0.9); opacity: 0.7; }
+  50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0 0 8px #00F2FE); }
+  100% { transform: scale(0.9); opacity: 0.7; }
+}
+
+/* ==========================================================================
+   2. SESSION 1: HERO SECTION & GLASS FORM
+   ========================================================================== */
+.fpt-hero-section {
+  position: relative;
+  overflow: hidden;
+  background-color: #0A1128;
+}
+
+.fpt-hero-glass-form {
+  background: rgba(255, 255, 255, 0.08) !important;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  border-radius: var(--fpt-radius-lg) !important;
+  padding: 30px 25px !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4) !important;
+}
+
+.fpt-hero-glass-form h3 {
+  color: #FFC708 !important;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.fpt-hero-glass-form input[type="text"],
+.fpt-hero-glass-form input[type="email"],
+.fpt-hero-glass-form input[type="tel"],
+.fpt-hero-glass-form select {
+  background: rgba(255, 255, 255, 0.92) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  border-radius: var(--fpt-radius-sm) !important;
+  height: 44px !important;
+  color: #333333 !important;
+  font-weight: 500 !important;
+  transition: all 0.3s ease;
+}
+
+.fpt-hero-glass-form input:focus,
+.fpt-hero-glass-form select:focus {
+  background: #FFFFFF !important;
+  border-color: var(--fpt-orange) !important;
+  box-shadow: 0 0 0 3px rgba(239, 113, 37, 0.25) !important;
+}
+
+.fpt-hero-glass-form input[type="submit"] {
+  background: var(--fpt-gradient-primary) !important;
+  border: none !important;
+  border-radius: var(--fpt-radius-sm) !important;
+  height: 48px !important;
+  font-size: 1rem !important;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px;
+  box-shadow: 0 8px 20px rgba(239, 113, 37, 0.4) !important;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1) !important;
+  width: 100%;
+}
+
+.fpt-hero-glass-form input[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(239, 113, 37, 0.6) !important;
+}
+
+/* 4 Quick Info Pills on Hero */
+.fpt-hero-pill-card {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: var(--fpt-radius-md);
+  padding: 12px 15px;
+  transition: all 0.3s ease;
+}
+
+.fpt-hero-pill-card:hover {
+  background: rgba(255, 255, 255, 0.14);
+  transform: translateY(-3px);
+  border-color: var(--fpt-orange);
+}
+
+/* ==========================================================================
+   3. SESSION 2: TRUST BAR & PARTNER TICKER
+   ========================================================================== */
+.fpt-trust-bar-section {
+  background: #FFFFFF;
+  margin-top: -40px;
+  position: relative;
+  z-index: 10;
+}
+
+.fpt-trust-card {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-md);
+  box-shadow: var(--fpt-card-shadow);
+  padding: 20px 15px;
+  text-align: center;
+  border-bottom: 3px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.fpt-trust-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--fpt-card-shadow-hover);
+  border-bottom-color: var(--fpt-orange);
+}
+
+.fpt-trust-number {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--fpt-orange);
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.fpt-trust-label {
+  font-size: 0.9rem;
+  color: #555555;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+/* Partner Logo Grid */
+.fpt-partner-logo-item img {
+  filter: grayscale(100%);
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  max-height: 55px;
+  object-fit: contain;
+}
+
+.fpt-partner-logo-item:hover img {
+  filter: grayscale(0%);
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+/* ==========================================================================
+   4. SESSION 3 & 5: FEATURE CARDS & AUDIENCE MATRIX
+   ========================================================================== */
+.fpt-feature-card {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-lg);
+  padding: 28px 22px;
+  box-shadow: var(--fpt-card-shadow);
+  border: 1px solid #EAEAEA;
+  transition: all 0.3s ease;
+  height: 100%;
+}
+
+.fpt-feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--fpt-card-shadow-hover);
+  border-color: rgba(239, 113, 37, 0.3);
+}
+
+.fpt-audience-card {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-lg);
+  overflow: hidden;
+  box-shadow: var(--fpt-card-shadow);
+  border: 1px solid #EAEAEA;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  height: 100%;
+}
+
+.fpt-audience-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(30, 26, 76, 0.15);
+}
+
+.fpt-audience-card .fpt-card-img {
+  overflow: hidden;
+  height: 200px;
+}
+
+.fpt-audience-card .fpt-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.fpt-audience-card:hover .fpt-card-img img {
+  transform: scale(1.08);
+}
+
+.fpt-audience-card .fpt-card-body {
+  padding: 20px;
+}
+
+.fpt-audience-card h3 {
+  color: var(--fpt-navy);
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* ==========================================================================
+   5. SESSION 4: INTERACTIVE TABS ROADMAP
+   ========================================================================== */
+.fpt-roadmap-section .tab-panels {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-lg);
+  box-shadow: var(--fpt-card-shadow);
+  padding: 30px;
+  border: 1px solid #EAEAEA;
+}
+
+.fpt-roadmap-section .nav-tabs {
+  border-bottom: none !important;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.fpt-roadmap-section .nav-tabs > li > a {
+  background: #F3F4F6 !important;
+  color: var(--fpt-navy) !important;
+  border-radius: 50px !important;
+  padding: 12px 28px !important;
+  font-weight: 700 !important;
+  font-size: 1rem !important;
+  border: 1px solid #E5E7EB !important;
+  transition: all 0.3s ease !important;
+}
+
+.fpt-roadmap-section .nav-tabs > li.active > a,
+.fpt-roadmap-section .nav-tabs > li > a:hover {
+  background: var(--fpt-gradient-primary) !important;
+  color: #FFFFFF !important;
+  border-color: var(--fpt-orange) !important;
+  box-shadow: 0 8px 20px rgba(239, 113, 37, 0.35) !important;
+}
+
+.fpt-semester-tag {
+  display: inline-block;
+  background: var(--fpt-orange-light);
+  color: var(--fpt-orange);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+.fpt-eproject-highlight {
+  background: #FFF8F4;
+  border-left: 4px solid var(--fpt-orange);
+  padding: 15px 18px;
+  border-radius: 0 var(--fpt-radius-sm) var(--fpt-radius-sm) 0;
+  margin: 15px 0;
+}
+
+/* ==========================================================================
+   6. SESSION 6, 7 & 8: PORTFOLIO, LECTURERS & PARTNERS
+   ========================================================================== */
+.fpt-lecturer-card {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-lg);
+  padding: 25px 20px;
+  text-align: center;
+  box-shadow: var(--fpt-card-shadow);
+  border: 1px solid #EFEFEF;
+  transition: all 0.3s ease;
+}
+
+.fpt-lecturer-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--fpt-card-shadow-hover);
+}
+
+.fpt-lecturer-avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+  overflow: hidden;
+  border: 3px solid var(--fpt-orange);
+  box-shadow: 0 6px 18px rgba(239, 113, 37, 0.2);
+}
+
+.fpt-lecturer-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+   7. SESSION 9: 10 CAREER ROLES & 5K COMMITMENT
+   ========================================================================== */
+.fpt-job-role-pill {
+  background: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: var(--fpt-navy);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+  margin: 6px;
+}
+
+.fpt-job-role-pill:hover {
+  background: var(--fpt-orange-light);
+  border-color: var(--fpt-orange);
+  color: var(--fpt-orange);
+  transform: translateY(-2px);
+}
+
+.fpt-5k-card {
+  background: #FFFFFF;
+  border-radius: var(--fpt-radius-md);
+  padding: 20px;
+  box-shadow: var(--fpt-card-shadow);
+  text-align: center;
+  border-top: 4px solid var(--fpt-orange);
+  transition: all 0.3s ease;
+}
+
+.fpt-5k-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--fpt-card-shadow-hover);
+}
+
+/* ==========================================================================
+   8. STICKY CTA BAR (MOBILE & DESKTOP)
+   ========================================================================== */
+.fpt-sticky-cta-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(10, 17, 40, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  padding: 12px 20px;
+  z-index: 9999;
+  box-shadow: 0 -5px 25px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.fpt-sticky-cta-bar .fpt-cta-text {
+  color: #FFFFFF;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.fpt-sticky-cta-bar .fpt-cta-highlight {
+  color: #FFC708;
+  font-weight: 700;
+}
+
+.fpt-sticky-actions {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.fpt-btn-cta-phone {
+  background: #25D366;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+}
+
+.fpt-btn-cta-submit {
+  background: var(--fpt-gradient-primary);
+  color: #FFFFFF !important;
+  font-weight: 700;
+  padding: 8px 22px;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 15px rgba(239, 113, 37, 0.4);
+  transition: all 0.2s ease;
+}
+
+.fpt-btn-cta-submit:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(239, 113, 37, 0.6);
+}
+
+/* ==========================================================================
+   9. RESPONSIVE BREAKPOINTS
+   ========================================================================== */
+@media (max-width: 849px) {
+  .fpt-sticky-cta-bar {
+    padding: 8px 12px;
+  }
+  .fpt-sticky-cta-bar .fpt-cta-text {
+    display: none;
+  }
+  .fpt-sticky-actions {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .fpt-btn-cta-phone,
+  .fpt-btn-cta-submit {
+    flex: 1;
+    justify-content: center;
+    font-size: 0.82rem;
+    padding: 8px 10px;
+  }
+  .fpt-trust-bar-section {
+    margin-top: 0;
+  }
+}
+
+/* aptech-ts — trang clone tuyển sinh aptech.fpt.edu.vn/tuyensinh (chuong-trinh-dao-tao/aptech) */
+
+/* Topbar (logo + hotline) và hero (artwork + form) dùng chung 1 [section] (class
+   "aptech-ts-topbar aptech-ts-hero") với cùng 1 ảnh nền bg="9658" — 2 [row] riêng bên trong
+   giữ layout cũ, xem .aptech-ts-hero bên dưới cho position/overflow/màu nền dự phòng. */
+
+.aptech-ts-phone-pill {
+  display: inline-block;
+  background: #fdae61;
+  color: #1b2a4a;
+  font-weight: 700;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.aptech-ts-hero {
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+  /* bg="9658" (shortcode) now supplies the real diagonal orange/navy artwork from the
+     source site — background-color here is just a fallback flash-guard while it loads. */
+  background-color: #16305e;
+}
+
+.aptech-ts-hero-form-col {
+  background: rgba(255, 255, 255, 0.12);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 8px;
+  padding: 25px 20px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.aptech-ts-hero-form-title {
+  color: #fff;
+}
+
+.aptech-ts-hero-form-col .wpcf7-form-control {
+  border-radius: 4px;
+}
+
+.aptech-ts-hero-form-col .wpcf7-submit {
+  background: #ef7125 !important;
+  border: none !important;
+}
+
+.aptech-ts-hero-cta-float {
+  position: absolute;
+  left: 0;
+  bottom: 20px;
+  z-index: 5;
+}
+
+.aptech-ts-hero-cta-float .button {
+  background: #e8402b;
+  color: #fff;
+  border-radius: 0 25px 25px 0;
+  padding: 12px 30px;
+  font-weight: 700;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+}
+
+.aptech-ts-section-heading {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.aptech-ts-audience-card .box-image,
+.aptech-ts-benefit-icon img,
+.aptech-ts-skill-icon img,
+.aptech-ts-job-icon-grid img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aptech-ts-audience-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(27, 42, 74, 0.08);
+  padding: 25px 15px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.aptech-ts-audience-card:hover {
+  box-shadow: 0 8px 24px rgba(27, 42, 74, 0.15);
+  transform: translateY(-3px);
+}
+
+.aptech-ts-benefit-icon {
+  text-align: center;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(27, 42, 74, 0.08);
+  margin-bottom: 15px;
+}
+
+.aptech-ts-semester-row {
+  border-bottom: 1px solid #eaeaea;
+  padding: 20px 0;
+}
+
+.aptech-ts-semester-row:last-child {
+  border-bottom: none;
+}
+
+.aptech-ts-semester-title {
+  font-weight: 700;
+}
+
+.aptech-ts-semester-video iframe,
+.aptech-ts-semester-video video {
+  width: 100%;
+  border-radius: 6px;
+}
+
+@media (max-width: 549px) {
+  .aptech-ts-semester-row.is-reversed .col:first-child {
+    order: 2;
+  }
+  .aptech-ts-semester-row.is-reversed .col:last-child {
+    order: 1;
+  }
+}
+
+.aptech-ts-transfer-col img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aptech-ts-transfer-col {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(27, 42, 74, 0.08);
+  padding: 20px 15px;
+}
+
+.aptech-ts-lecturer-card,
+.aptech-ts-testimonial-card {
+  padding: 10px 20px;
+}
+
+.aptech-ts-avatar-circle .img-inner img,
+.aptech-ts-avatar-circle img {
+  border-radius: 50%;
+}
+
+.aptech-ts-slider .row {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(27, 42, 74, 0.08);
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.aptech-ts-partner-logo img {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: all 0.2s ease;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.aptech-ts-partner-logo img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+.aptech-ts-cta-mid {
+  background-color: #1b2a4a;
+}
+
+/* aptech-ts UI/UX/animation polish pass (2026-08-26) — stats bar, section accent,
+   consistent hover-lift, floating CTA pulse, logo marquee, sticky mobile CTA.
+   Scroll-reveal uses Flatsome's native [data-animate] system (the `animate` attribute
+   on row/col/ux_image/ux_image_box shortcodes -> IntersectionObserver already in
+   flatsome.js) — no extra animation library or custom JS added. */
+
+.aptech-ts-section-heading {
+  position: relative;
+  padding-bottom: 16px;
+}
+
+.aptech-ts-section-heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 56px;
+  height: 4px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #f7941d, #e8402b);
+}
+
+/* Stats / trust bar */
+.aptech-ts-stats-bar {
+  background: linear-gradient(120deg, #16305e 0%, #1b3a63 100%);
+}
+
+.aptech-ts-stat-number {
+  display: block;
+  font-size: 2.4rem;
+  font-weight: 800;
+  color: #fdae61;
+  line-height: 1.2;
+}
+
+.aptech-ts-stat-label {
+  display: block;
+  color: #fff;
+  opacity: 0.85;
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+
+@media (max-width: 549px) {
+  .aptech-ts-stat-number {
+    font-size: 1.9rem;
+  }
+}
+
+/* eProject / Project chip badge inside each semester block */
+.aptech-ts-project-tag {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 6px 14px;
+  background: rgba(247, 148, 29, 0.12);
+  border: 1px solid rgba(247, 148, 29, 0.35);
+  border-radius: 20px;
+  font-size: 0.85rem;
+}
+
+.aptech-ts-project-tag strong {
+  color: #e8402b;
+}
+
+/* Hover polish — extend the card-lift treatment already used on audience cards
+   to every other interactive grid item, for a consistent feel across the page. */
+.aptech-ts-transfer-col,
+.aptech-ts-benefit-icon {
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.aptech-ts-transfer-col:hover,
+.aptech-ts-benefit-icon:hover {
+  box-shadow: 0 8px 24px rgba(27, 42, 74, 0.15);
+  transform: translateY(-3px);
+}
+
+@media (min-width: 850px) {
+  .aptech-ts-job-icon-grid .large-2 {
+    flex-basis: 20%;
+    max-width: 20%;
+  }
+}
+
+.aptech-ts-job-icon-grid img,
+.aptech-ts-skill-icon img {
+  transition: transform 0.25s ease;
+}
+
+.aptech-ts-job-icon-grid .col:hover img,
+.aptech-ts-skill-icon:hover img {
+  transform: translateY(-4px) scale(1.05);
+}
+
+.aptech-ts-slider .row {
+  transition: box-shadow 0.25s ease, transform 0.25s ease;
+}
+
+.aptech-ts-slider .row:hover {
+  box-shadow: 0 10px 28px rgba(27, 42, 74, 0.14);
+  transform: translateY(-2px);
+}
+
+/* Floating hero CTA — subtle breathing pulse to draw the eye */
+@keyframes aptech-ts-pulse {
+  0%, 100% {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 0 rgba(232, 64, 43, 0.45);
+  }
+  50% {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25), 0 0 0 10px rgba(232, 64, 43, 0);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .aptech-ts-hero-cta-float .button {
+    animation: aptech-ts-pulse 2.4s ease-in-out infinite;
+  }
+}
+
+/* Partner logo marquee — track holds the 18 logos twice back-to-back (see
+   shortcode) so translateX(-50%) loops seamlessly. */
+.aptech-ts-marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+  mask-image: linear-gradient(90deg, transparent, #000 8%, #000 92%, transparent);
+}
+
+.aptech-ts-marquee-track {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 50px;
+  width: max-content;
+}
+
+/* [ux_image width="90"] renders as an inline #image_ID{width:90%} rule (percentage of
+   container) — fine in a narrow grid column, but a circular blow-up here since the
+   track's own width is max-content (sized from its children). Force a fixed pixel
+   width with !important to win over that inline ID rule (which has no !important). */
+.aptech-ts-marquee-track .img {
+  flex: 0 0 auto;
+  width: 90px !important;
+}
+
+.aptech-ts-marquee-track img {
+  filter: grayscale(100%);
+  opacity: 0.8;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.aptech-ts-marquee-track img:hover {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+
+@keyframes aptech-ts-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .aptech-ts-marquee-track {
+    animation: aptech-ts-marquee 32s linear infinite;
+  }
+  .aptech-ts-marquee:hover .aptech-ts-marquee-track {
+    animation-play-state: paused;
+  }
+}
+
+/* Sticky mobile CTA bar — persistent conversion anchor on a long page */
+.aptech-ts-sticky-cta {
+  display: none;
+}
+
+@media (max-width: 549px) {
+  .aptech-ts-sticky-cta {
+    display: block;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+    background: #fff;
+    box-shadow: 0 -6px 20px rgba(0, 0, 0, 0.12);
+  }
+
+  .aptech-ts-sticky-cta .button {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #e8402b;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 6px;
+    padding: 12px 0;
   }
 }
