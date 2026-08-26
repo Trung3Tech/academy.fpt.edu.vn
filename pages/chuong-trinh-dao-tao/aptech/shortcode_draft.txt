@@ -526,7 +526,7 @@ FPT Aptech còn hợp tác liên thông với các trường đại học hàng 
 [/ux_text]
 [ux_text text_align="center"]
 
-*"Một tập thể mạnh mẽ được tạo nên bởi những cái tôi độc đáo. Trong suốt quá trình phát triển, FPT Aptech may mắn có một lực lượng giảng viên trẻ trung và luôn khuyến khích sinh viên thể hiện mình, từ đó đóng góp những nhân lực chất lượng cao cho ngành CNTT Việt Nam và Quốc tế."*
+Một tập thể mạnh mẽ được tạo nên bởi những cái tôi độc đáo. Trong suốt quá trình phát triển, FPT Aptech may mắn có một lực lượng giảng viên trẻ trung và luôn khuyến khích sinh viên thể hiện mình, từ đó đóng góp những nhân lực chất lượng cao cho ngành CNTT Việt Nam và Quốc tế.
 
 [/ux_text]
 
@@ -780,8 +780,8 @@ Hơn 13 năm kinh nghiệm giảng dạy Lập trình, Thầy Nguyễn Duy Hoàn
 [col span="12" animate="fadeInUp"]
 
 <div class="aptech-ts-marquee"><div class="aptech-ts-marquee-track">
-[ux_image id="9866" width="90"][ux_image id="9867" width="90"][ux_image id="9868" width="90"][ux_image id="9869" width="90"][ux_image id="9870" width="90"][ux_image id="9871" width="90"][ux_image id="9872" width="90"][ux_image id="9873" width="90"][ux_image id="9874" width="90"][ux_image id="9875" width="90"][ux_image id="9876" width="90"][ux_image id="9877" width="90"][ux_image id="9878" width="90"][ux_image id="9879" width="90"][ux_image id="9880" width="90"][ux_image id="9881" width="90"][ux_image id="9882" width="90"][ux_image id="9883" width="90"]
-[ux_image id="9866" width="90"][ux_image id="9867" width="90"][ux_image id="9868" width="90"][ux_image id="9869" width="90"][ux_image id="9870" width="90"][ux_image id="9871" width="90"][ux_image id="9872" width="90"][ux_image id="9873" width="90"][ux_image id="9874" width="90"][ux_image id="9875" width="90"][ux_image id="9876" width="90"][ux_image id="9877" width="90"][ux_image id="9878" width="90"][ux_image id="9879" width="90"][ux_image id="9880" width="90"][ux_image id="9881" width="90"][ux_image id="9882" width="90"][ux_image id="9883" width="90"]
+[ux_image id="9541" width="90"][ux_image id="9546" width="90"][ux_image id="9551" width="90"][ux_image id="9556" width="90"][ux_image id="9561" width="90"][ux_image id="9566" width="90"][ux_image id="9571" width="90"][ux_image id="9576" width="90"][ux_image id="9581" width="90"][ux_image id="9586" width="90"][ux_image id="9591" width="90"][ux_image id="9596" width="90"][ux_image id="9601" width="90"][ux_image id="9606" width="90"][ux_image id="9611" width="90"][ux_image id="9616" width="90"][ux_image id="9621" width="90"][ux_image id="9626" width="90"]
+[ux_image id="9541" width="90"][ux_image id="9546" width="90"][ux_image id="9551" width="90"][ux_image id="9556" width="90"][ux_image id="9561" width="90"][ux_image id="9566" width="90"][ux_image id="9571" width="90"][ux_image id="9576" width="90"][ux_image id="9581" width="90"][ux_image id="9586" width="90"][ux_image id="9591" width="90"][ux_image id="9596" width="90"][ux_image id="9601" width="90"][ux_image id="9606" width="90"][ux_image id="9611" width="90"][ux_image id="9616" width="90"][ux_image id="9621" width="90"][ux_image id="9626" width="90"]
 </div></div>
 
 [/col]

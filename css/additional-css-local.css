@@ -2906,21 +2906,6 @@ html {
   margin-bottom: 0;
 }
 
-/* Partner Logo Grid */
-.fpt-partner-logo-item img {
-  filter: grayscale(100%);
-  opacity: 0.7;
-  transition: all 0.3s ease;
-  max-height: 55px;
-  object-fit: contain;
-}
-
-.fpt-partner-logo-item:hover img {
-  filter: grayscale(0%);
-  opacity: 1;
-  transform: scale(1.08);
-}
-
 /* ==========================================================================
    4. SESSION 3 & 5: FEATURE CARDS & AUDIENCE MATRIX
    ========================================================================== */
@@ -3363,19 +3348,6 @@ html {
   margin: 0 10px;
 }
 
-.aptech-ts-partner-logo img {
-  filter: grayscale(100%);
-  opacity: 0.8;
-  transition: all 0.2s ease;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.aptech-ts-partner-logo img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
-}
-
 .aptech-ts-cta-mid {
   background-color: #1b2a4a;
 }
@@ -3523,17 +3495,6 @@ html {
 .aptech-ts-marquee-track .img {
   flex: 0 0 auto;
   width: 90px !important;
-}
-
-.aptech-ts-marquee-track img {
-  filter: grayscale(100%);
-  opacity: 0.8;
-  transition: filter 0.2s ease, opacity 0.2s ease;
-}
-
-.aptech-ts-marquee-track img:hover {
-  filter: grayscale(0%);
-  opacity: 1;
 }
 
 @keyframes aptech-ts-marquee {

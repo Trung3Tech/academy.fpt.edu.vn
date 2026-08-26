@@ -2976,6 +2976,7 @@ html {
   margin: 0 12px !important;
   min-height: 260px;
   box-sizing: border-box;
+  top: 0 !important;
 }
 
 .aptech-ts-lecturer-card,
