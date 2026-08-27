@@ -1,32 +1,33 @@
-[section bg="10103" bg_size="cover" bg_pos="19% 0%" padding="0px 0px 40px 0px" padding__sm="0px 0px 20px 0px" class="aptech-ts-topbar aptech-ts-hero"]
+[section bg="10167" bg_size="original" bg_pos="43% 0%" padding="0px" padding__sm="0px 0px 20px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
 
 [row style="small" v_align="middle" padding="10px 0px 5px 0px"]
 
-[col span="6" span__sm="12" align="left"]
+[col span="4" span__sm="12" align="center"]
+
+[ux_image id="10189" image_size="original" width="30" width__sm="37" parallax="10"]
 
 
 [/col]
-[col span="6" span__sm="12" align="right" class="aptech-ts-topbar-phones"]
+[col span="8" span__sm="12" align="right" class="aptech-ts-topbar-phones"]
 
 [ux_text text_align="right"]
 
-<p><span class="aptech-ts-phone-pill">0775 782 581 (HCM)</span></p>
+<p><span class="aptech-ts-phone-pill">0834 999 810 (HCM)</span></p>
 [/ux_text]
 
 [/col]
 
 [/row]
-[row style="small" v_align="bottom" padding="10px 0px 0px 0px" padding__sm="8px 0px 0px 0px"]
+[row style="large" v_align="bottom" h_align="center" padding="10px 0px 0px 0px" padding__sm="8px 0px 0px 0px"]
 
 [col span="7" span__sm="12" color="light" animate="fadeInDown"]
 
-[ux_image id="9823" image_size="original" parallax="3"]
+[ux_image id="10108" image_size="original" width="99" height="100%" parallax="3"]
 
 
 [/col]
-[col span="5" span__sm="12" color="light" animate="fadeInRight" class="aptech-ts-hero-form-col"]
+[col span="4" span__sm="12" color="light" animate="fadeInRight" class="aptech-ts-hero-form-col"]
 
-<div id="aptech-ts-form"></div>
 [ux_text font_size="1" line_height="0.75" text_align="center" text_color="rgb(0,0,0)" class="aptech-ts-hero-form-title"]
 
 <h2><strong>Đăng ký tư vấn nhanh</strong></h2>
@@ -42,40 +43,33 @@
 [/section]
 [section padding="36px 0px 36px 0px" padding__sm="24px 0px 24px 0px" class="aptech-ts-stats-bar"]
 
-[row v_align="middle"]
+[row v_align="top"]
 
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<p><span class="aptech-ts-stat-number">27+</span> <span class="aptech-ts-stat-label">Năm đào tạo lập trình</span></p>
+<span class="aptech-ts-stat-number"><span class="count-up">27</span>+</span><span class="aptech-ts-stat-label">Năm đào tạo lập trình</span>
 [/ux_text]
 
 [/col]
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">4</span></span>
-<span class="aptech-ts-stat-label">Học kỳ chuyên sâu tích hợp AI</span>
+<span class="aptech-ts-stat-number"><span class="count-up">4</span></span><span class="aptech-ts-stat-label">Học kỳ chuyên sâu tích hợp AI</span>
 [/ux_text]
 
 [/col]
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">70</span>%</span>
-<span class="aptech-ts-stat-label">Thời lượng thực hành</span>
+<span class="aptech-ts-stat-number"><span class="count-up">70</span>%</span><span class="aptech-ts-stat-label">Thời lượng thực hành</span>
 [/ux_text]
 
 [/col]
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
-
-<span class="aptech-ts-stat-number"><span class="count-up">18</span>+</span>
-<span class="aptech-ts-stat-label">Doanh nghiệp liên kết tuyển dụng</span>
+<span class="aptech-ts-stat-number"><span class="count-up">18</span>+</span><span class="aptech-ts-stat-label">Doanh nghiệp liên kết tuyển dụng</span>
 [/ux_text]
 
 [/col]
@@ -124,9 +118,9 @@
 [/col]
 
 [/row]
-[row]
+[row equal_heights="true" class="aptech-ts-audience-row"]
 
-[col span="3" span__sm="6" span__md="6" bg_color="rgb(255,255,255)"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9862" class="aptech-ts-audience-card"]
 
@@ -136,7 +130,7 @@
 [/ux_image_box]
 
 [/col]
-[col span="3" span__sm="6" span__md="6" bg_color="rgb(255,255,255)"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9899" class="aptech-ts-audience-card"]
 
@@ -146,7 +140,7 @@
 [/ux_image_box]
 
 [/col]
-[col span="3" span__sm="6" span__md="6" bg_color="rgb(255,255,255)"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9892" class="aptech-ts-audience-card"]
 
@@ -156,7 +150,7 @@
 [/ux_image_box]
 
 [/col]
-[col span="3" span__sm="6" span__md="6" bg_color="rgb(255, 255, 255)"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9824" class="aptech-ts-audience-card"]
 
@@ -184,11 +178,11 @@
 [/col]
 
 [/row]
-[row v_align="top"]
+[row v_align="top" class="aptech-ts-benefits-row"]
 
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="10100" width="30"]
+[ux_image id="10100" width="75"]
 
 [ux_text text_align="center"]
 
@@ -196,53 +190,53 @@
 [/ux_text]
 
 [/col]
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="9885" width="30"]
+[ux_image id="9885" width="75"]
 
 [ux_text text_align="center"]
 
-Được ưu tiên thực tập và giới thiệu việc làm tại các công ty thành viên thuộc Tập đoàn FPT.
+<p>Được ưu tiên thực tập và giới thiệu việc làm tại các công ty thành viên thuộc Tập đoàn FPT.</p>
 [/ux_text]
 
 [/col]
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="9886" width="30"]
+[ux_image id="9886" width="75"]
 
 [ux_text text_align="center"]
 
-70% thời lượng là thực hành, được học thẳng vào chuyên ngành, không học các môn đại cương.
+<p>70% thời lượng là thực hành, được học thẳng vào chuyên ngành, không học các môn đại cương.</p>
 [/ux_text]
 
 [/col]
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="9887" width="30"]
+[ux_image id="9887" width="75"]
 
 [ux_text text_align="center"]
 
-Được dạy & học trên nền tảng EduNext độc quyền của Tập đoàn FPT, rèn giũa kỹ năng tư duy phản biện, giải quyết vấn đề.
+<p>Được dạy & học trên nền tảng EduNext độc quyền của Tập đoàn FPT, rèn giũa kỹ năng tư duy phản biện, giải quyết vấn đề.</p>
 [/ux_text]
 
 [/col]
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="9888" width="30"]
+[ux_image id="9888" width="75"]
 
 [ux_text text_align="center"]
 
-Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá trị toàn cầu, có thể làm việc tại các doanh nghiệp trong & ngoài nước.
+<p>Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá trị toàn cầu, có thể làm việc tại các doanh nghiệp trong & ngoài nước.</p>
 [/ux_text]
 
 [/col]
-[col span="4" span__sm="6" padding="15px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
+[col span="2" span__sm="8" span__md="4" padding="10px" align="center" animate="fadeInUp" class="aptech-ts-benefit-icon"]
 
-[ux_image id="9889" width="30"]
+[ux_image id="9889" width="75"]
 
 [ux_text text_align="center"]
 
-Được học chuyển tiếp để lấy bằng cử nhân tại ĐH FPT hoặc học tại các trường ĐH quốc tế khác.
+<p>Được học chuyển tiếp để lấy bằng cử nhân tại ĐH FPT hoặc học tại các trường ĐH quốc tế khác.</p>
 [/ux_text]
 
 [/col]
@@ -266,7 +260,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/row]
 [row v_align="middle" class="aptech-ts-semester-row"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInLeft"]
 
 [ux_text line_height="1.5" class="aptech-ts-semester-title"]
 
@@ -275,7 +269,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 <p style="text-align: justify;">Sinh viên sẽ được xây dựng nền tảng lập trình từ gốc với logic, ngôn ngữ C và các thuật toán cơ bản. Từ đó, người học tiếp cận HTML, CSS, JavaScript, React, NodeJS và cơ sở dữ liệu để xây dựng ứng dụng web từ Front-end đến Back-end. Đặc biệt, học kỳ bắt đầu tích hợp AI, Git và CI/CD vào quá trình phát triển dự án, kết hợp rèn luyện kỹ năng làm việc nhóm.</p>
 <p style="text-align: left;"><span class="aptech-ts-project-tag"><strong>Project: </strong>AI Powered Website Development</span></p>
-[ux_image id="9983" image_size="original"]
+[ux_image id="9983" image_size="original" width="100" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -303,7 +297,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInRight"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -312,7 +306,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 <p>Sinh viên sẽ được làm chủ Python – ngôn ngữ phổ biến trong lĩnh vực AI, đồng thời học phân tích và trực quan hóa dữ liệu với Python và Power BI. Từ đó, người học tiếp cận AI, Machine Learning, NLP và Chatbot AI để phát triển các ứng dụng thông minh. Bên cạnh đó, sinh viên được làm quen với Docker và DevOps trong quá trình triển khai ứng dụng.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Python Application Development - Integrate AI</span></p>
-[ux_image id="9990"]
+[ux_image id="9990" image_size="original" width="100" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -320,7 +314,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/row]
 [row v_align="middle" class="aptech-ts-semester-row"]
 
-[col span="6" span__sm="12" padding="20px" animate="fadeInLeft"]
+[col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInLeft"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -329,7 +323,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 <p>Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ liệu với ngôn ngữ lập trình Python, đi sâu vào lập trình website với NodeJS, ASP.NET, Web API, Azure Cloud. Kết hợp với kiến thức Front-end ở Học kỳ 1, sinh viên có thể xây dựng website chuyên nghiệp với quy mô lớn.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Robust Java Applications for Enterprises and Mobile Development - Integrate AI</span></p>
-[ux_image id="10031"]
+[ux_image id="10031" image_size="original" width="100" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -357,7 +351,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col]
-[col span="6" span__sm="12" padding="20px" animate="fadeInRight"]
+[col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInRight"]
 
 [ux_text class="aptech-ts-semester-title"]
 
@@ -366,7 +360,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 <p>Sinh viên sẽ được tiếp cận lập trình .NET và xây dựng ứng dụng cấp doanh nghiệp, đồng thời triển khai ứng dụng trên nền tảng Microsoft Azure. Bên cạnh đó, người học được ứng dụng Generative AI vào các tính năng thực tế, kết hợp làm quen với Golang và Blockchain – những công nghệ đang được quan tâm trong ngành.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Crafting .NET Applications - Integrate AI / Blockchain</span></p>
-[ux_image id="10033"]
+[ux_image id="10033" image_size="original" width="100" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -388,65 +382,65 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 
 [/row]
-[row class="aptech-ts-job-icon-grid"]
+[row style="small" class="aptech-ts-job-icon-grid"]
 
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9833" width="120"]
-
-
-[/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
-
-[ux_image id="9834" width="120"]
+[ux_image id="9833" width="100"]
 
 
 [/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9835" width="120"]
-
-
-[/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
-
-[ux_image id="9836" width="120"]
+[ux_image id="9834" width="100"]
 
 
 [/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9837" width="120"]
-
-
-[/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
-
-[ux_image id="9838" width="120"]
+[ux_image id="9835" width="100"]
 
 
 [/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9839" width="120"]
-
-
-[/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
-
-[ux_image id="9840" width="120"]
+[ux_image id="9836" width="100"]
 
 
 [/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9841" width="120"]
+[ux_image id="9837" width="100"]
 
 
 [/col]
-[col span="2" span__sm="4" span__md="3" padding="5px" align="center"]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9842" width="120"]
+[ux_image id="9838" width="100"]
+
+
+[/col]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
+
+[ux_image id="9839" width="100"]
+
+
+[/col]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
+
+[ux_image id="9840" width="100"]
+
+
+[/col]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
+
+[ux_image id="9841" width="100"]
+
+
+[/col]
+[col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
+
+[ux_image id="9842" width="100"]
 
 
 [/col]
@@ -477,7 +471,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9852" width="90"]
+[ux_image id="10149" width="90"]
 
 [ux_text text_align="center" class="mb-0"]
 
@@ -487,7 +481,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9853" width="90"]
+[ux_image id="10148" width="90"]
 
 [ux_text text_align="center" class="mb-0"]
 
@@ -497,7 +491,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9851" width="90"]
+[ux_image id="10147" width="90"]
 
 [ux_text text_align="center" class="mb-0"]
 
@@ -524,7 +518,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9896" width="90"]
+[ux_image id="10146" width="90"]
 
 [ux_image id="9890" width="70" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
 
@@ -532,7 +526,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9931" width="90"]
+[ux_image id="10145" width="90"]
 
 [ux_image id="9864" width="70" link="https://lincoln.edu.my/" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
 
@@ -540,7 +534,7 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
-[ux_image id="9831" width="90"]
+[ux_image id="10151" width="90"]
 
 [ux_image id="9901" width="70" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
 
@@ -568,17 +562,11 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 
 [/row]
-[ux_slider style="container" slide_width="100%" nav_pos="outside" nav_style="simple" nav_color="dark" class="aptech-ts-slider"]
+[row equal_heights="true" class="aptech-ts-lecturers-row"]
 
-[row v_align="middle"]
-
-[col span="3" span__sm="12" align="center"]
+[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9856" width="80" class="aptech-ts-avatar-circle"]
-
-
-[/col]
-[col span="9" span__sm="12"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
@@ -587,17 +575,9 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col]
-
-[/row]
-[row v_align="middle"]
-
-[col span="3" span__sm="12" align="center"]
+[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9855" width="80" class="aptech-ts-avatar-circle"]
-
-
-[/col]
-[col span="9" span__sm="12"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
@@ -606,17 +586,9 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col]
-
-[/row]
-[row v_align="middle"]
-
-[col span="3" span__sm="12" align="center"]
+[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9854" width="80" class="aptech-ts-avatar-circle"]
-
-
-[/col]
-[col span="9" span__sm="12"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
@@ -625,17 +597,9 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/ux_text]
 
 [/col]
-
-[/row]
-[row v_align="middle"]
-
-[col span="3" span__sm="12" align="center"]
+[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9832" width="80" class="aptech-ts-avatar-circle"]
-
-
-[/col]
-[col span="9" span__sm="12"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
@@ -646,8 +610,6 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 [/col]
 
 [/row]
-
-[/ux_slider]
 [row]
 
 [col]
@@ -664,31 +626,31 @@ Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá tr�
 
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9818" width="80"]
+[ux_image id="9818" width="100"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="10099" width="80"]
+[ux_image id="10099" width="100"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9820" width="80"]
+[ux_image id="9820" width="100"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9821" width="80"]
+[ux_image id="9821" width="100"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9822" width="80"]
+[ux_image id="9822" width="100"]
 
 
 [/col]
