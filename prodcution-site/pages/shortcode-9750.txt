@@ -32,7 +32,7 @@
 
 <h2><strong>Đăng ký tư vấn nhanh</strong></h2>
 [/ux_text]
-[contact-form-7 id="66675a4"]
+[contact-form-7 id="10257"]
 
 
 [/col]
@@ -48,6 +48,7 @@
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
+
 <span class="aptech-ts-stat-number"><span class="count-up">27</span>+</span><span class="aptech-ts-stat-label">Năm đào tạo lập trình</span>
 [/ux_text]
 
@@ -55,6 +56,7 @@
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
+
 <span class="aptech-ts-stat-number"><span class="count-up">4</span></span><span class="aptech-ts-stat-label">Học kỳ chuyên sâu tích hợp AI</span>
 [/ux_text]
 
@@ -62,6 +64,7 @@
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
+
 <span class="aptech-ts-stat-number"><span class="count-up">70</span>%</span><span class="aptech-ts-stat-label">Thời lượng thực hành</span>
 [/ux_text]
 
@@ -69,6 +72,7 @@
 [col span="3" span__sm="6" align="center" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-stat-block"]
+
 <span class="aptech-ts-stat-number"><span class="count-up">18</span>+</span><span class="aptech-ts-stat-label">Doanh nghiệp liên kết tuyển dụng</span>
 [/ux_text]
 
@@ -118,7 +122,7 @@
 [/col]
 
 [/row]
-[row equal_heights="true" class="aptech-ts-audience-row"]
+[row class="aptech-ts-audience-row"]
 
 [col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
@@ -269,7 +273,7 @@
 [/ux_text]
 <p style="text-align: justify;">Sinh viên sẽ được xây dựng nền tảng lập trình từ gốc với logic, ngôn ngữ C và các thuật toán cơ bản. Từ đó, người học tiếp cận HTML, CSS, JavaScript, React, NodeJS và cơ sở dữ liệu để xây dựng ứng dụng web từ Front-end đến Back-end. Đặc biệt, học kỳ bắt đầu tích hợp AI, Git và CI/CD vào quá trình phát triển dự án, kết hợp rèn luyện kỹ năng làm việc nhóm.</p>
 <p style="text-align: left;"><span class="aptech-ts-project-tag"><strong>Project: </strong>AI Powered Website Development</span></p>
-[ux_image id="9983" image_size="original" width="100" class="aptech-ts-semester-img"]
+[ux_image id="9983" image_size="original" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -306,7 +310,7 @@
 [/ux_text]
 <p>Sinh viên sẽ được làm chủ Python – ngôn ngữ phổ biến trong lĩnh vực AI, đồng thời học phân tích và trực quan hóa dữ liệu với Python và Power BI. Từ đó, người học tiếp cận AI, Machine Learning, NLP và Chatbot AI để phát triển các ứng dụng thông minh. Bên cạnh đó, sinh viên được làm quen với Docker và DevOps trong quá trình triển khai ứng dụng.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Python Application Development - Integrate AI</span></p>
-[ux_image id="9990" image_size="original" width="100" class="aptech-ts-semester-img"]
+[ux_image id="9990" image_size="original" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -323,7 +327,7 @@
 [/ux_text]
 <p>Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ liệu với ngôn ngữ lập trình Python, đi sâu vào lập trình website với NodeJS, ASP.NET, Web API, Azure Cloud. Kết hợp với kiến thức Front-end ở Học kỳ 1, sinh viên có thể xây dựng website chuyên nghiệp với quy mô lớn.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Robust Java Applications for Enterprises and Mobile Development - Integrate AI</span></p>
-[ux_image id="10031" image_size="original" width="100" class="aptech-ts-semester-img"]
+[ux_image id="10031" image_size="original" class="aptech-ts-semester-img"]
 
 
 [/col]
@@ -339,7 +343,7 @@
 [/col]
 
 [/row]
-[row v_align="middle" class="aptech-ts-semester-row is-reversed"]
+[row v_align="middle" class="aptech-ts-semester-row is-reversed aptech-hk4-row"]
 
 [col span="6" span__sm="12" padding="40px 0px 0px 0px" animate="fadeInLeft"]
 
@@ -360,12 +364,13 @@
 [/ux_text]
 <p>Sinh viên sẽ được tiếp cận lập trình .NET và xây dựng ứng dụng cấp doanh nghiệp, đồng thời triển khai ứng dụng trên nền tảng Microsoft Azure. Bên cạnh đó, người học được ứng dụng Generative AI vào các tính năng thực tế, kết hợp làm quen với Golang và Blockchain – những công nghệ đang được quan tâm trong ngành.</p>
 <p><span class="aptech-ts-project-tag"><strong>Project:</strong> Crafting .NET Applications - Integrate AI / Blockchain</span></p>
-[ux_image id="10033" image_size="original" width="100" class="aptech-ts-semester-img"]
+[ux_image id="10033" image_size="original" class="aptech-ts-semester-img"]
 
 
 [/col]
 
 [/row]
+<div id="aptech-hk4-trigger" class="aptech-hk4-anchor" style="width: 100%; height: 1px; margin: 0; padding: 0; opacity: 0; pointer-events: none;"></div>
 
 [/section]
 [section padding="60px 0px 60px 0px"]
@@ -386,61 +391,61 @@
 
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9833" width="100"]
+[ux_image id="9833"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9834" width="100"]
+[ux_image id="9834"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9835" width="100"]
+[ux_image id="9835"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9836" width="100"]
+[ux_image id="9836"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9837" width="100"]
+[ux_image id="9837"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9838" width="100"]
+[ux_image id="9838"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9839" width="100"]
+[ux_image id="9839"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9840" width="100"]
+[ux_image id="9840"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9841" width="100"]
+[ux_image id="9841"]
 
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
-[ux_image id="9842" width="100"]
+[ux_image id="9842"]
 
 
 [/col]
@@ -562,9 +567,9 @@
 [/col]
 
 [/row]
-[row equal_heights="true" class="aptech-ts-lecturers-row"]
+[row class="aptech-ts-lecturers-row"]
 
-[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9856" width="80" class="aptech-ts-avatar-circle"]
 
@@ -575,7 +580,7 @@
 [/ux_text]
 
 [/col]
-[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9855" width="80" class="aptech-ts-avatar-circle"]
 
@@ -586,7 +591,7 @@
 [/ux_text]
 
 [/col]
-[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9854" width="80" class="aptech-ts-avatar-circle"]
 
@@ -597,7 +602,7 @@
 [/ux_text]
 
 [/col]
-[col span="3" span__md="6" span__sm="12" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9832" width="80" class="aptech-ts-avatar-circle"]
 
@@ -626,31 +631,31 @@
 
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9818" width="100"]
+[ux_image id="9818"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="10099" width="100"]
+[ux_image id="10099"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9820" width="100"]
+[ux_image id="9820"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9821" width="100"]
+[ux_image id="9821"]
 
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
-[ux_image id="9822" width="100"]
+[ux_image id="9822"]
 
 
 [/col]
@@ -972,7 +977,7 @@
 [/col]
 [col span="5" span__sm="12" animate="fadeInRight"]
 
-[contact-form-7 id="5132"]
+[contact-form-7 id="10263"]
 
 
 [/col]
@@ -981,3 +986,111 @@
 
 [/section]
 <div class="aptech-ts-sticky-cta"><a href="#aptech-ts-form" class="button">Đăng ký tư vấn ngay</a></div>
+<!-- Aptech Scroll Triggered Popup Modal -->
+<div id="aptech-scroll-popup" class="aptech-modal-overlay" style="display: none;" aria-hidden="true" role="dialog" aria-modal="true">
+  <div class="aptech-modal-backdrop"></div>
+  <div class="aptech-modal-dialog">
+    <button type="button" class="aptech-modal-close" id="aptech-modal-close-btn" aria-label="Đóng popup"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+    <div class="aptech-modal-body">
+      <div class="aptech-modal-banner-side">
+        <div class="aptech-modal-banner-content">
+          <div class="aptech-modal-badge">ƯU ĐÃI ĐẶC BIỆT</div>
+          <h3 class="aptech-modal-title">NHẬN TƯ VẤN LỘ TRÌNH LẬP TRÌNH TÍCH HỢP AI</h3>
+          <p class="aptech-modal-desc">Đăng ký ngay để nhận thông tin học bổng, tư vấn lộ trình 1:1 và tham gia trải nghiệm miễn phí!</p>
+          <ul class="aptech-modal-highlights">
+            <li><span class="highlight-icon">✓</span> <strong>70% thời lượng thực hành</strong> đồ án thực tế</li>
+            <li><span class="highlight-icon">✓</span> Tích hợp <strong>Generative AI & Cloud</strong></li>
+            <li><span class="highlight-icon">✓</span> Ưu tiên <strong>thực tập & tuyển dụng</strong> tại FPT</li>
+          </ul>
+        </div>
+        <div class="aptech-modal-banner-img-wrap">
+          [ux_image id="10038" image_size="original" class="aptech-modal-img"]
+        </div>
+      </div>
+      <div class="aptech-modal-form-side">
+        <div class="aptech-modal-form-header">
+          <h4>Đăng Ký Tư Vấn Nhanh</h4>
+          <p>Chuyên viên FPT Aptech sẽ liên hệ hỗ trợ Bạn trong 15 phút</p>
+        </div>
+        <div class="aptech-modal-cf7-wrap">
+          [contact-form-7 id="10257"]
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+(function(){
+function initAptechPopup(){
+var popup=document.getElementById('aptech-scroll-popup');
+var closeBtn=document.getElementById('aptech-modal-close-btn');
+var backdrop=popup?popup.querySelector('.aptech-modal-backdrop'):null;
+if(!popup)return;
+var targetEl=document.getElementById('aptech-hk4-trigger')||document.querySelector('.aptech-hk4-row')||document.querySelector('.aptech-ts-semester-row:last-of-type');
+var storageKey='aptech_hk4_popup_closed_session';
+var hasTriggered=false;
+function openPopup(){
+if(hasTriggered)return;
+hasTriggered=true;
+popup.style.display='flex';
+void popup.offsetWidth;
+popup.classList.add('is-active');
+document.body.classList.add('aptech-modal-open');
+}
+function closePopup(){
+popup.classList.remove('is-active');
+setTimeout(function(){
+popup.style.display='none';
+document.body.classList.remove('aptech-modal-open');
+},350);
+try{sessionStorage.setItem(storageKey,'1');}catch(e){}
+}
+window.openAptechPopup=openPopup;
+window.closeAptechPopup=closePopup;
+if(closeBtn)closeBtn.addEventListener('click',closePopup);
+if(backdrop)backdrop.addEventListener('click',closePopup);
+document.addEventListener('keydown',function(e){
+if(e.key==='Escape'&&popup.classList.contains('is-active')){closePopup();}
+});
+try{
+if(sessionStorage.getItem(storageKey)==='1'){return;}
+}catch(e){}
+function checkScrollTrigger(){
+if(hasTriggered)return;
+if(targetEl){
+var rect=targetEl.getBoundingClientRect();
+var windowHeight=window.innerHeight||document.documentElement.clientHeight;
+if(rect.top<=windowHeight-50){
+openPopup();
+window.removeEventListener('scroll',checkScrollTrigger);
+}
+}else{
+var scrollY=window.pageYOffset||document.documentElement.scrollTop;
+var docHeight=document.documentElement.scrollHeight-window.innerHeight;
+if(docHeight>0&&(scrollY/docHeight)>=0.4){
+openPopup();
+window.removeEventListener('scroll',checkScrollTrigger);
+}
+}
+}
+if(targetEl&&'IntersectionObserver' in window){
+var observer=new IntersectionObserver(function(entries){
+entries.forEach(function(entry){
+if(entry.isIntersecting||entry.boundingClientRect.top<(window.innerHeight||document.documentElement.clientHeight)){
+openPopup();
+observer.disconnect();
+}
+});
+},{root:null,rootMargin:'0px 0px 0px 0px',threshold:0.05});
+observer.observe(targetEl);
+}
+window.addEventListener('scroll',checkScrollTrigger,{passive:true});
+setTimeout(checkScrollTrigger,400);
+}
+if(document.readyState==='loading'){
+document.addEventListener('DOMContentLoaded',initAptechPopup);
+}else{
+initAptechPopup();
+}
+})();
+</script>

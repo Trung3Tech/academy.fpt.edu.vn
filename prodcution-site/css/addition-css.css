@@ -158,7 +158,8 @@ html {
 
 .form-trang-con-chuong-trinh .wpcf7-acceptance label,
 .aptech-ts-hero-form-col .wpcf7-acceptance label,
-.aptech-ts-cta-mid .wpcf7-acceptance label {
+.aptech-ts-cta-mid .wpcf7-acceptance label,
+.aptech-modal-cf7-wrap .wpcf7-acceptance label {
   display: flex !important;
   align-items: flex-start;
   gap: 8px;
@@ -168,7 +169,8 @@ html {
 
 .form-trang-con-chuong-trinh .wpcf7-acceptance input[type="checkbox"],
 .aptech-ts-hero-form-col .wpcf7-acceptance input[type="checkbox"],
-.aptech-ts-cta-mid .wpcf7-acceptance input[type="checkbox"] {
+.aptech-ts-cta-mid .wpcf7-acceptance input[type="checkbox"],
+.aptech-modal-cf7-wrap .wpcf7-acceptance input[type="checkbox"] {
   margin: 3px 0 0 0 !important;
   flex-shrink: 0;
   width: 16px;
@@ -178,7 +180,8 @@ html {
 
 .form-trang-con-chuong-trinh .wpcf7-acceptance .wpcf7-list-item-label,
 .aptech-ts-hero-form-col .wpcf7-acceptance .wpcf7-list-item-label,
-.aptech-ts-cta-mid .wpcf7-acceptance .wpcf7-list-item-label {
+.aptech-ts-cta-mid .wpcf7-acceptance .wpcf7-list-item-label,
+.aptech-modal-cf7-wrap .wpcf7-acceptance .wpcf7-list-item-label {
   font-size: 12px;
   line-height: 1.45;
   font-weight: 400;
@@ -3422,6 +3425,371 @@ html {
 
   .aptech-ts-hero-form-col {
     padding: 20px;
+  }
+}
+
+/* ==========================================================================
+   Aptech - Scroll Popup Modal (CF7 #10257)
+   ========================================================================== */
+body.aptech-modal-open {
+  overflow: hidden !important;
+}
+
+.aptech-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 999999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.35s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.35s ease;
+}
+
+.aptech-modal-overlay.is-active {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.aptech-modal-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 15, 30, 0.72);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.aptech-modal-dialog {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  max-width: 880px;
+  max-height: 90vh;
+  background: #FFFFFF;
+  border-radius: 24px;
+  box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255, 255, 255, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transform: scale(0.92) translateY(20px);
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.aptech-modal-overlay.is-active .aptech-modal-dialog {
+  transform: scale(1) translateY(0);
+}
+
+.aptech-modal-close {
+  position: absolute !important;
+  top: 12px !important;
+  right: 12px !important;
+  width: 36px !important;
+  height: 36px !important;
+  min-width: 36px !important;
+  max-width: 36px !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  aspect-ratio: 1 / 1 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  border-radius: 50% !important;
+  background: #FFFFFF !important;
+  border: 1px solid rgba(0, 0, 0, 0.08) !important;
+  color: #1A2238 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  cursor: pointer !important;
+  z-index: 9999 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25) !important;
+  transition: all 0.25s ease !important;
+  text-decoration: none !important;
+  line-height: 1 !important;
+}
+
+.aptech-modal-close svg {
+  width: 14px !important;
+  height: 14px !important;
+  display: block !important;
+  pointer-events: none !important;
+  stroke: #1A2238 !important;
+  transition: stroke 0.25s ease !important;
+}
+
+.aptech-modal-close:hover {
+  background: #F56F21 !important;
+  border-color: #F56F21 !important;
+  transform: rotate(90deg) scale(1.08) !important;
+}
+
+.aptech-modal-close:hover svg {
+  stroke: #FFFFFF !important;
+}
+
+.aptech-modal-body {
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  max-height: 90vh;
+  scrollbar-width: thin;
+}
+
+.aptech-modal-body::-webkit-scrollbar {
+  width: 6px;
+}
+
+.aptech-modal-body::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 999px;
+}
+
+.aptech-modal-banner-side {
+  flex: 0 0 42%;
+  background: linear-gradient(150deg, #182038 0%, #0D1224 100%);
+  padding: 34px 26px;
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.aptech-modal-banner-side::before {
+  content: '';
+  position: absolute;
+  top: -40px;
+  right: -40px;
+  width: 140px;
+  height: 140px;
+  background: radial-gradient(circle, rgba(245, 111, 33, 0.35) 0%, rgba(245, 111, 33, 0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.aptech-modal-badge {
+  display: inline-block;
+  align-self: flex-start;
+  background: linear-gradient(90deg, #F56F21 0%, #FFA600 100%);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  padding: 5px 12px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(245, 111, 33, 0.3);
+}
+
+.aptech-modal-title {
+  color: #FFFFFF !important;
+  font-size: 1.25rem !important;
+  line-height: 1.35 !important;
+  font-weight: 800 !important;
+  margin-bottom: 12px !important;
+  letter-spacing: -0.2px;
+}
+
+.aptech-modal-desc {
+  font-size: 13.5px;
+  color: rgba(255, 255, 255, 0.85);
+  line-height: 1.5;
+  margin-bottom: 18px;
+}
+
+.aptech-modal-highlights {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.aptech-modal-highlights li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.45;
+  margin-bottom: 10px;
+}
+
+.aptech-modal-highlights .highlight-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: rgba(245, 111, 33, 0.25);
+  color: #FFA600;
+  font-size: 12px;
+  font-weight: bold;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.aptech-modal-banner-img-wrap {
+  margin-top: auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+}
+
+.aptech-modal-banner-img-wrap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.aptech-modal-form-side {
+  flex: 1;
+  padding: 34px 30px 26px 30px;
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+}
+
+.aptech-modal-form-header {
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.aptech-modal-form-header h4 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1A2238;
+  margin-bottom: 4px;
+}
+
+.aptech-modal-form-header p {
+  font-size: 13px;
+  color: #666666;
+  margin-bottom: 0;
+}
+
+.aptech-modal-cf7-wrap .form-trang-con-chuong-trinh {
+  margin: 0 -8px;
+}
+
+.aptech-modal-cf7-wrap .form-trang-con-chuong-trinh > .col {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-bottom: 10px;
+}
+
+.aptech-modal-cf7-wrap input[type="text"],
+.aptech-modal-cf7-wrap input[type="tel"],
+.aptech-modal-cf7-wrap input[type="email"],
+.aptech-modal-cf7-wrap select {
+  height: 40px;
+  font-size: 13.5px;
+  background-color: #F8F9FA;
+  border: 1px solid #E2E8F0;
+  border-radius: 8px;
+  color: #2D3748;
+  margin-bottom: 0;
+  transition: all 0.25s ease;
+}
+
+.aptech-modal-cf7-wrap input:focus,
+.aptech-modal-cf7-wrap select:focus {
+  background-color: #FFFFFF;
+  border-color: #F56F21;
+  box-shadow: 0 0 0 3px rgba(245, 111, 33, 0.15);
+}
+
+.aptech-modal-cf7-wrap .wpcf7-submit {
+  width: 100%;
+  height: 44px;
+  background: linear-gradient(180deg, #F56F21 0%, #F54F21 100%) !important;
+  color: #FFFFFF !important;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-radius: 999px;
+  border: none;
+  box-shadow: 0 4px 14px rgba(245, 111, 33, 0.35);
+  transition: all 0.25s ease;
+  cursor: pointer;
+  margin-top: 6px;
+}
+
+.aptech-modal-cf7-wrap .wpcf7-submit:hover {
+  background: linear-gradient(180deg, #F54F21 0%, #E03E10 100%) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(245, 111, 33, 0.45);
+}
+
+@media (max-width: 768px) {
+  .aptech-modal-overlay {
+    padding: 12px;
+  }
+
+  .aptech-modal-dialog {
+    border-radius: 18px;
+    max-height: 94vh;
+  }
+
+  .aptech-modal-close {
+    top: 10px !important;
+    right: 10px !important;
+    width: 32px !important;
+    height: 32px !important;
+    min-width: 32px !important;
+    max-width: 32px !important;
+    min-height: 32px !important;
+    max-height: 32px !important;
+  }
+
+  .aptech-modal-body {
+    flex-direction: column;
+  }
+
+  .aptech-modal-banner-side {
+    padding: 22px 18px 16px 18px;
+  }
+
+  .aptech-modal-banner-img-wrap {
+    display: none;
+  }
+
+  .aptech-modal-title {
+    font-size: 1.1rem !important;
+  }
+
+  .aptech-modal-desc {
+    margin-bottom: 12px;
+    font-size: 12.5px;
+  }
+
+  .aptech-modal-highlights {
+    margin-bottom: 0;
+  }
+
+  .aptech-modal-highlights li {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .aptech-modal-form-side {
+    padding: 18px 16px 20px 16px;
+  }
+
+  .aptech-modal-form-header h4 {
+    font-size: 1.15rem;
   }
 }
 
