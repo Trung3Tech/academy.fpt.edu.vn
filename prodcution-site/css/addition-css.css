@@ -2808,8 +2808,21 @@ html {
   border: 1px solid rgba(255, 255, 255, 0.4);
   border-radius: 20px;
   box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
-  padding: 25px;
+  padding: 22px 24px 14px 24px;
+  margin-bottom: 28px;
   color: #2b2b2b;
+}
+
+.aptech-ts-hero-form-col .wpcf7-form {
+  margin-bottom: 0;
+}
+
+.aptech-ts-hero-form-col .wpcf7-submit {
+  margin-bottom: 0 !important;
+}
+
+.aptech-ts-hero-form-col .form-trang-con-chuong-trinh > .col:last-child {
+  padding-bottom: 0 !important;
 }
 
 .aptech-ts-hero-form-title,
@@ -2821,7 +2834,7 @@ html {
 }
 
 .aptech-ts-hero-form-title {
-  margin-bottom: 15px;
+  margin-bottom: 12px;
 }
 
 .aptech-ts-hero-cta-float {
@@ -3506,7 +3519,8 @@ html {
   }
 
   .aptech-ts-hero-form-col {
-    padding: 20px;
+    padding: 18px 16px 12px 16px;
+    margin-bottom: 20px;
   }
 }
 

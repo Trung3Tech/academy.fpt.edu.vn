@@ -1,4 +1,4 @@
-[section bg="10388" bg_size="full" bg_pos="50% 0%" padding="0px" padding__sm="0px 0px 20px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
+[section bg="10388" bg_size="full" bg_pos="50% 0%" padding="0px 0px 10px 0px" padding__sm="0px 0px 15px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
 
 [row style="small" v_align="middle" padding="10px 0px 5px 0px" padding__sm="6px 0px 2px 0px"]
 
@@ -18,7 +18,7 @@
 [/col]
 
 [/row]
-[row style="large" v_align="bottom" h_align="center" padding="10px 0px 0px 0px" padding__sm="8px 0px 0px 0px"]
+[row style="large" v_align="bottom" h_align="center" padding="10px 0px 10px 0px" padding__sm="8px 0px 10px 0px"]
 
 [col span="7" span__sm="12" color="light" animate="fadeInDown"]
 
@@ -568,47 +568,47 @@
 [/row]
 [row class="aptech-ts-lecturers-row"]
 
-[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" align="center" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9856" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
 <p><strong>Trần Phước Sinh</strong> — Giám đốc đào tạo FPT Aptech HCM</p>
-<p>Với hơn 24 năm kinh nghiệm đào tạo Lập trình, Thầy Trần Phước Sinh kết hợp kiến thức chuyên môn với thực tiễn nghề nghiệp, giúp sinh viên vững chuyên môn, phát triển tư duy và tự tin chinh phục nghề Lập trình.</p>
+<p style="text-align: justify;">Với hơn 24 năm kinh nghiệm đào tạo Lập trình, Thầy Trần Phước Sinh kết hợp kiến thức chuyên môn với thực tiễn nghề nghiệp, giúp sinh viên vững chuyên môn, phát triển tư duy và tự tin chinh phục nghề Lập trình.</p>
 [/ux_text]
 
 [/col]
-[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" align="center" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9855" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
 <p><strong>Nguyễn Hạ Vy</strong> </p>
-<p>Từ cựu sinh viên FPT Aptech đến giảng viên, Cô Nguyễn Hạ Vy luôn hướng đến phương pháp giảng dạy dễ hiểu, thực tế, giúp sinh viên hứng thú học Lập trình, vững kiến thức và tự tin ứng dụng vào công việc sau này.</p>
+<p style="text-align: justify;">Từ cựu sinh viên FPT Aptech đến giảng viên, Cô Nguyễn Hạ Vy luôn hướng đến phương pháp giảng dạy dễ hiểu, thực tế, giúp sinh viên hứng thú học Lập trình, vững kiến thức và tự tin ứng dụng vào công việc sau này.</p>
 [/ux_text]
 
 [/col]
-[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" align="center" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9854" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
 <p><strong>Hoàng Đức Quang</strong> </p>
-<p>Là giảng viên xuất sắc tại FPT Aptech, Thầy Hoàng Đức Quang chú trọng kết nối kiến thức với thực tiễn, giúp sinh viên rèn luyện tư duy, kỹ năng giải quyết vấn đề và xây dựng nền tảng vững chắc cho sự nghiệp.</p>
+<p style="text-align: justify;">Là giảng viên xuất sắc tại FPT Aptech, Thầy Hoàng Đức Quang chú trọng kết nối kiến thức với thực tiễn, giúp sinh viên rèn luyện tư duy, kỹ năng giải quyết vấn đề và xây dựng nền tảng vững chắc cho sự nghiệp.</p>
 [/ux_text]
 
 [/col]
-[col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-lecturer-col"]
+[col span="3" span__sm="12" span__md="6" align="center" animate="fadeInUp" class="aptech-ts-lecturer-col"]
 
 [ux_image id="9832" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_text class="aptech-ts-lecturer-card"]
 
 <p><strong>Đặng Kim Thi</strong> </p>
-<p>Với 14 năm gắn bó cùng Lập trình, Cô Đặng Kim Thi luôn tâm huyết trong từng bài giảng, tận tâm đào tạo thế hệ Lập trình viên vững chuyên môn, yêu nghề và tự tin xây dựng sự nghiệp hạnh phúc.</p>
+<p style="text-align: justify;">Với 14 năm gắn bó cùng Lập trình, Cô Đặng Kim Thi luôn tâm huyết trong từng bài giảng, tận tâm đào tạo thế hệ Lập trình viên vững chuyên môn, yêu nghề và tự tin xây dựng sự nghiệp hạnh phúc.</p>
 [/ux_text]
 
 [/col]
@@ -680,7 +680,7 @@
 <li style="text-align: left;">01 bản sao công chứng CMND/CCCD/Hộ chiếu</li>
 <li style="text-align: left;">01 Phiếu cam kết sinh viên học tập tại trường</li>
 </ul>
-[button text="LIÊN THÔNG ĐẠI HỌC ANH QUỐC" style="shade" radius="10" depth="4" depth_hover="5" expand="0"]
+[button text="LIÊN THÔNG ĐẠI HỌC ANH QUỐC" link="#aptech-scroll-popup" class="aptech-open-popup-btn" style="shade" radius="10" depth="4" depth_hover="5" expand="0"]
 
 
 [/col]
@@ -978,34 +978,31 @@
 [/row]
 
 [/section]
-<div class="aptech-ts-sticky-cta"><a href="#aptech-ts-form" class="button">Đăng ký tư vấn ngay</a></div>
-<p><!-- Aptech Scroll Triggered Popup Modal --></p>
+<div class="aptech-ts-sticky-cta"><a href="#aptech-scroll-popup" class="button aptech-open-popup-btn">Đăng ký tư vấn ngay</a></div>
+<!-- Aptech Scroll Triggered Popup Modal -->
 <div id="aptech-scroll-popup" class="aptech-modal-overlay" style="display: none;" aria-hidden="true" role="dialog" aria-modal="true">
 <div class="aptech-modal-backdrop"></div>
 <div class="aptech-modal-dialog">
-    <button type="button" class="aptech-modal-close" id="aptech-modal-close-btn" aria-label="Đóng popup"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></p>
+    <button type="button" class="aptech-modal-close" id="aptech-modal-close-btn" aria-label="Đóng popup"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
 <div class="aptech-modal-body">
 <div class="aptech-modal-banner-side">
 <div class="aptech-modal-banner-img-wrap">
 [ux_image id="10390" image_size="original" class="aptech-modal-img"]
-
 </div>
 </div>
 <div class="aptech-modal-form-side">
 <div class="aptech-modal-form-header">
 <h4>Đăng Ký Tư Vấn Nhanh</h4>
-<p>Chuyên viên FPT Aptech sẽ liên hệ hỗ trợ Bạn trong 15 phút</p>
-</p>
+<p>Chuyên viên sẽ liên hệ hỗ trợ Bạn trong 15 phút nhé!</p>
 </div>
 <div class="aptech-modal-cf7-wrap">
 [contact-form-7 id="10257"]
-
 </div>
 </div>
 </div>
 </div>
 </div>
-<p><script type="text/javascript">
+<script type="text/javascript">
 (function(){
 function initAptechPopup(){
 var popup=document.getElementById('aptech-scroll-popup');
@@ -1015,8 +1012,8 @@ if(!popup)return;
 var targetEl=document.getElementById('aptech-hk4-trigger')||document.querySelector('.aptech-hk4-row')||document.querySelector('.aptech-ts-semester-row:last-of-type');
 var storageKey='aptech_hk4_popup_closed_session';
 var hasTriggered=false;
-function openPopup(){
-if(hasTriggered)return;
+function openPopup(force){
+if(!force && hasTriggered)return;
 hasTriggered=true;
 popup.style.display='flex';
 void popup.offsetWidth;
@@ -1031,10 +1028,17 @@ document.body.classList.remove('aptech-modal-open');
 },350);
 try{sessionStorage.setItem(storageKey,'1');}catch(e){}
 }
-window.openAptechPopup=openPopup;
+window.openAptechPopup=function(force){openPopup(force!==false);};
 window.closeAptechPopup=closePopup;
 if(closeBtn)closeBtn.addEventListener('click',closePopup);
 if(backdrop)backdrop.addEventListener('click',closePopup);
+document.addEventListener('click',function(e){
+var trigger=e.target.closest('.aptech-open-popup-btn, a[href="#aptech-scroll-popup"], [data-open-aptech-popup]');
+if(trigger){
+e.preventDefault();
+openPopup(true);
+}
+});
 document.addEventListener('keydown',function(e){
 if(e.key==='Escape'&&popup.classList.contains('is-active')){closePopup();}
 });
@@ -1047,14 +1051,14 @@ if(targetEl){
 var rect=targetEl.getBoundingClientRect();
 var windowHeight=window.innerHeight||document.documentElement.clientHeight;
 if(rect.top<=windowHeight-50){
-openPopup();
+openPopup(false);
 window.removeEventListener('scroll',checkScrollTrigger);
 }
 }else{
 var scrollY=window.pageYOffset||document.documentElement.scrollTop;
 var docHeight=document.documentElement.scrollHeight-window.innerHeight;
 if(docHeight>0&&(scrollY/docHeight)>=0.4){
-openPopup();
+openPopup(false);
 window.removeEventListener('scroll',checkScrollTrigger);
 }
 }
@@ -1063,7 +1067,7 @@ if(targetEl&&'IntersectionObserver' in window){
 var observer=new IntersectionObserver(function(entries){
 entries.forEach(function(entry){
 if(entry.isIntersecting||entry.boundingClientRect.top<(window.innerHeight||document.documentElement.clientHeight)){
-openPopup();
+openPopup(false);
 observer.disconnect();
 }
 });
@@ -1079,4 +1083,4 @@ document.addEventListener('DOMContentLoaded',initAptechPopup);
 initAptechPopup();
 }
 })();
-</script></p>
+</script>
