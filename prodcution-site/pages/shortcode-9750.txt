@@ -1,14 +1,14 @@
-[section bg="10167" bg_size="full" bg_pos="50% 0%" padding="0px" padding__sm="0px 0px 20px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
+[section bg="10388" bg_size="full" bg_pos="50% 0%" padding="0px" padding__sm="0px 0px 20px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
 
-[row style="small" v_align="middle" padding="10px 0px 5px 0px"]
+[row style="small" v_align="middle" padding="10px 0px 5px 0px" padding__sm="6px 0px 2px 0px"]
 
 [col span="4" span__sm="12" padding="0px 0px 0px 0px" margin="0px 0px 0px 0px" align="center"]
 
-[ux_image id="10189" image_size="original" width="44" width__sm="50" margin="-14px 0px 0px 0px"]
+[ux_image id="10189" image_size="original" width="36" width__sm="36" class="aptech-ts-logo"]
 
 
 [/col]
-[col span="8" span__sm="12" align="right" align__sm="center" class="aptech-ts-topbar-phones"]
+[col span="8" span__sm="12" align="right" class="aptech-ts-topbar-phones"]
 
 [ux_text text_align="right" text_align__sm="center"]
 
@@ -22,7 +22,7 @@
 
 [col span="7" span__sm="12" color="light" animate="fadeInDown"]
 
-[ux_image id="10108" image_size="original" width="99" height="100%" parallax="3"]
+[ux_image id="10387" image_size="original" width="99" height="100%"]
 
 
 [/col]
@@ -38,7 +38,6 @@
 [/col]
 
 [/row]
-<div class="aptech-ts-hero-cta-float"><a href="#aptech-ts-form" class="button">Đăng ký tư vấn</a></div>
 
 [/section]
 [section padding="36px 0px 36px 0px" padding__sm="24px 0px 24px 0px" class="aptech-ts-stats-bar"]
@@ -621,7 +620,7 @@
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
 
-<h2>5 KỸ NĂNG CỐT LÕI</h2>
+
 [/ux_text]
 
 [/col]
@@ -695,7 +694,7 @@
 [/row]
 
 [/section]
-[section padding="60px 0px 60px 0px"]
+[section padding="60px 0px 60px 0px" class="aptech-ts-student-stories"]
 
 [row]
 
@@ -959,20 +958,14 @@
 [/row]
 
 [/section]
-[section padding="70px 0px 70px 0px" class="aptech-ts-cta-mid"]
+[section padding="60px 0px 60px 0px" class="aptech-ts-cta-mid"]
 
-[row]
+[row v_align="middle"]
 
-[col span="7" span__sm="12" color="light" animate="fadeInLeft"]
+[col span="7" span__sm="12" color="light" animate="fadeInLeft" class="aptech-ts-cta-img-col"]
 
-[ux_text font_size="1.6" font_size__sm="1.1" text_color="#FFFFFF"]
+[ux_image id="10390" image_size="original"]
 
-<h3>Học lập trình - Học tại FPT Aptech</h3>
-[/ux_text]
-[ux_text text_color="#FFFFFF"]
-
-<p>THAM GIA <strong>3H THỬ SỨC NGHỀ CODER</strong> MIỄN PHÍ </p>
-[/ux_text]
 
 [/col]
 [col span="5" span__sm="12" animate="fadeInRight"]
@@ -993,30 +986,24 @@
     <button type="button" class="aptech-modal-close" id="aptech-modal-close-btn" aria-label="Đóng popup"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button></p>
 <div class="aptech-modal-body">
 <div class="aptech-modal-banner-side">
-<div class="aptech-modal-banner-content">
-<div class="aptech-modal-badge">ƯU ĐÃI ĐẶC BIỆT</div>
-<h3 class="aptech-modal-title">NHẬN TƯ VẤN LỘ TRÌNH LẬP TRÌNH TÍCH HỢP AI</h3>
-<p class="aptech-modal-desc">Đăng ký ngay để nhận thông tin học bổng, tư vấn lộ trình 1:1 và tham gia trải nghiệm miễn phí!</p>
-<ul class="aptech-modal-highlights">
-<li><span class="highlight-icon">✓</span> <strong>70% thời lượng thực hành</strong> đồ án thực tế</li>
-<li><span class="highlight-icon">✓</span> Tích hợp <strong>Generative AI & Cloud</strong></li>
-<li><span class="highlight-icon">✓</span> Ưu tiên <strong>thực tập & tuyển dụng</strong> tại FPT</li>
-</ul></div>
 <div class="aptech-modal-banner-img-wrap">
-[ux_image id="10038" image_size="original" class="aptech-modal-img"]
+[ux_image id="10390" image_size="original" class="aptech-modal-img"]
 
-</div></div>
+</div>
+</div>
 <div class="aptech-modal-form-side">
 <div class="aptech-modal-form-header">
 <h4>Đăng Ký Tư Vấn Nhanh</h4>
 <p>Chuyên viên FPT Aptech sẽ liên hệ hỗ trợ Bạn trong 15 phút</p>
-</p></div>
+</p>
+</div>
 <div class="aptech-modal-cf7-wrap">
 [contact-form-7 id="10257"]
 
-</div></div>
-</p></div>
-</p></div>
+</div>
+</div>
+</div>
+</div>
 </div>
 <p><script type="text/javascript">
 (function(){

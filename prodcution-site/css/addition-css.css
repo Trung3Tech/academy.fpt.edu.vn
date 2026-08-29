@@ -2787,6 +2787,10 @@ html {
   width: 100% !important;
 }
 
+.aptech-ts-logo {
+  margin-top: -14px !important;
+}
+
 .aptech-ts-phone-pill {
   display: inline-block;
   background: var(--gra, linear-gradient(180deg, #F56F21 0%, #F54F21 100%));
@@ -2829,10 +2833,27 @@ html {
 }
 
 @media (max-width: 800px) {
+
+  .aptech-ts-logo {
+    margin-top: -36px !important;
+    margin-bottom: 0 !important;
+  }
+
+  .aptech-ts-topbar .row:first-child {
+    padding-top: 6px !important;
+    padding-bottom: 2px !important;
+  }
+
   .aptech-ts-topbar-phones,
   .aptech-ts-topbar-phones p,
   .aptech-ts-topbar-phones .ux-text {
     text-align: center !important;
+    margin-bottom: 0 !important;
+  }
+
+  .aptech-ts-phone-pill {
+    padding: 6px 14px;
+    font-size: 12.5px;
   }
 
   .aptech-ts-hero-cta-float {
@@ -3185,6 +3206,7 @@ html {
 }
 
 @media (max-width: 600px) {
+
   .aptech-ts-job-icon-grid .col,
   .aptech-ts-job-icon-grid .col.small-6 {
     flex-basis: 50% !important;
@@ -3334,12 +3356,21 @@ html {
   }
 }
 
+.aptech-ts-student-stories .ux_slider,
+.aptech-ts-slider {
+  max-width: 1080px;
+  margin: 0 auto !important;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
 .aptech-ts-slider .row {
   background: #FFF;
   border-radius: 15px;
   box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.08);
   padding: 25px !important;
-  margin: 0 12px !important;
+  margin: 0 auto !important;
+  max-width: 100% !important;
   min-height: 260px;
   box-sizing: border-box;
   top: 0 !important;
@@ -3351,9 +3382,15 @@ html {
 }
 
 @media (max-width: 600px) {
+
+  .aptech-ts-student-stories .ux_slider,
+  .aptech-ts-slider {
+    padding: 0 10px;
+  }
+
   .aptech-ts-slider .row {
     padding: 18px !important;
-    margin: 0 6px !important;
+    margin: 0 auto !important;
     min-height: 380px;
   }
 }
@@ -3421,6 +3458,26 @@ html {
 
 .aptech-ts-cta-mid {
   background: var(--GRA-TECH, linear-gradient(270deg, #FFA600 0%, #F56F21 100%));
+}
+
+.aptech-ts-cta-mid .aptech-ts-cta-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aptech-ts-cta-mid .aptech-ts-cta-img-col .img-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.aptech-ts-cta-mid .aptech-ts-cta-img-col img {
+  max-height: 480px;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
 }
 
 .aptech-ts-cta-mid .wpcf7 {
@@ -3580,13 +3637,12 @@ body.aptech-modal-open {
 }
 
 .aptech-modal-banner-side {
-  flex: 0 0 42%;
-  background: linear-gradient(150deg, #182038 0%, #0D1224 100%);
-  padding: 34px 26px;
-  color: #FFFFFF;
+  flex: 0 0 45%;
+  background: linear-gradient(145deg, #FF6B00 0%, #F55500 50%, #D43800 100%);
+  padding: 24px 16px;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   position: relative;
   overflow: hidden;
 }
@@ -3594,96 +3650,45 @@ body.aptech-modal-open {
 .aptech-modal-banner-side::before {
   content: '';
   position: absolute;
-  top: -40px;
-  right: -40px;
-  width: 140px;
-  height: 140px;
-  background: radial-gradient(circle, rgba(245, 111, 33, 0.35) 0%, rgba(245, 111, 33, 0) 70%);
+  top: -50px;
+  right: -50px;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0) 70%);
   border-radius: 50%;
   pointer-events: none;
 }
 
-.aptech-modal-badge {
-  display: inline-block;
-  align-self: flex-start;
-  background: linear-gradient(90deg, #F56F21 0%, #FFA600 100%);
-  color: #FFFFFF;
-  font-size: 11px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  padding: 5px 12px;
-  border-radius: 999px;
-  margin-bottom: 16px;
-  box-shadow: 0 4px 12px rgba(245, 111, 33, 0.3);
-}
-
-.aptech-modal-title {
-  color: #FFFFFF !important;
-  font-size: 1.25rem !important;
-  line-height: 1.35 !important;
-  font-weight: 800 !important;
-  margin-bottom: 12px !important;
-  letter-spacing: -0.2px;
-}
-
-.aptech-modal-desc {
-  font-size: 13.5px;
-  color: rgba(255, 255, 255, 0.85);
-  line-height: 1.5;
-  margin-bottom: 18px;
-}
-
-.aptech-modal-highlights {
-  list-style: none;
-  padding: 0;
-  margin: 0 0 20px 0;
-}
-
-.aptech-modal-highlights li {
+.aptech-modal-banner-img-wrap {
+  width: 100%;
+  height: 100%;
   display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  font-size: 13px;
-  color: rgba(255, 255, 255, 0.92);
-  line-height: 1.45;
-  margin-bottom: 10px;
-}
-
-.aptech-modal-highlights .highlight-icon {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
-  border-radius: 50%;
-  background: rgba(245, 111, 33, 0.25);
-  color: #FFA600;
-  font-size: 12px;
-  font-weight: bold;
-  flex-shrink: 0;
-  margin-top: 1px;
+  background: transparent;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
 }
 
-.aptech-modal-banner-img-wrap {
-  margin-top: auto;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
-}
-
+.aptech-modal-banner-img-wrap .img-inner,
 .aptech-modal-banner-img-wrap img {
   width: 100%;
   height: auto;
+  max-height: 480px;
+  object-fit: contain;
   display: block;
 }
 
 .aptech-modal-form-side {
   flex: 1;
-  padding: 34px 30px 26px 30px;
+  padding: 30px 28px 24px 28px;
   background: #FFFFFF;
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .aptech-modal-form-header {
@@ -3708,7 +3713,7 @@ body.aptech-modal-open {
   margin: 0 -8px;
 }
 
-.aptech-modal-cf7-wrap .form-trang-con-chuong-trinh > .col {
+.aptech-modal-cf7-wrap .form-trang-con-chuong-trinh>.col {
   padding-left: 8px;
   padding-right: 8px;
   padding-bottom: 10px;
@@ -3784,29 +3789,26 @@ body.aptech-modal-open {
   }
 
   .aptech-modal-banner-side {
-    padding: 22px 18px 16px 18px;
+    padding: 16px 16px 12px 16px;
+    border-right: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    background: linear-gradient(145deg, #FF6B00 0%, #F55500 100%);
   }
 
   .aptech-modal-banner-img-wrap {
-    display: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 180px;
+    padding: 0;
   }
 
-  .aptech-modal-title {
-    font-size: 1.1rem !important;
-  }
-
-  .aptech-modal-desc {
-    margin-bottom: 12px;
-    font-size: 12.5px;
-  }
-
-  .aptech-modal-highlights {
-    margin-bottom: 0;
-  }
-
-  .aptech-modal-highlights li {
-    font-size: 12px;
-    margin-bottom: 6px;
+  .aptech-modal-banner-img-wrap .img-inner,
+  .aptech-modal-banner-img-wrap img {
+    max-height: 180px;
+    width: auto;
+    object-fit: contain;
+    margin: 0 auto;
   }
 
   .aptech-modal-form-side {
