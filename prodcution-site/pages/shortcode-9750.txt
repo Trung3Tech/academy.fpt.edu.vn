@@ -1,4 +1,4 @@
-[section bg="10388" bg_size="full" bg_pos="50% 0%" padding="0px 0px 10px 0px" padding__sm="0px 0px 15px 0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
+[section bg="10388" bg_size="full" bg_pos="50% 0%" padding="0px" padding__sm="0px" video_visibility="visible" class="aptech-ts-topbar aptech-ts-hero"]
 
 [row style="small" v_align="middle" padding="10px 0px 5px 0px" padding__sm="6px 0px 2px 0px"]
 
@@ -34,10 +34,11 @@
 [/ux_text]
 [contact-form-7 id="10257"]
 
-
 [/col]
 
 [/row]
+
+[gap height="30px" height__sm="20px"]
 
 [/section]
 [section padding="36px 0px 36px 0px" padding__sm="24px 0px 24px 0px" class="aptech-ts-stats-bar"]
