@@ -2768,6 +2768,25 @@ html {
 }
 
 /* Aptech - Chuong trinh dao tao */
+.aptech-ts-hero {
+  position: relative;
+  width: 100%;
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+}
+
+.aptech-ts-hero .section-bg,
+.aptech-ts-hero .section-bg .bg,
+.aptech-ts-hero .section-bg .bg-loaded,
+.aptech-ts-hero .section-bg-fill,
+.aptech-ts-hero .bg-fill {
+  background-size: cover !important;
+  background-position: center top !important;
+  background-repeat: no-repeat !important;
+  width: 100% !important;
+}
+
 .aptech-ts-phone-pill {
   display: inline-block;
   background: var(--gra, linear-gradient(180deg, #F56F21 0%, #F54F21 100%));
@@ -2810,6 +2829,12 @@ html {
 }
 
 @media (max-width: 800px) {
+  .aptech-ts-topbar-phones,
+  .aptech-ts-topbar-phones p,
+  .aptech-ts-topbar-phones .ux-text {
+    text-align: center !important;
+  }
+
   .aptech-ts-hero-cta-float {
     display: block;
     text-align: center;
