@@ -1,0 +1,45 @@
+<div class="row">
+   <div class="col large-12">
+   [text* ho_ten placeholder "Nhập Họ tên"]
+   </div>
+   <div class="col large-6">
+   [email* email-hv placeholder "Nhập email"]
+   </div>
+   <div class="col large-6">
+   [tel* sdt_hv placeholder "Nhập SĐT"]
+   </div>
+   <div class="col large-12">
+[select* co_so first_as_label "Chọn cơ sở tham gia" "Tp.HCM" "Đồng Nai" "Cần Thơ"]
+   </div>
+
+     [group nhom-can-tho]
+<div class="col large-12">
+        [select* lop_hoc_thu_can_tho first_as_label "Chọn Lớp học thử" "Workshop Vén màn bí mật nghề Thiết kế In ấn" "Nhập môn thiết kế vi mạch - Mô phỏng - FPGA" "Từ short Video đến thu nhập X+ bằng tiếp thị liên kết" "3 giờ xây dựng Trợ lý ảo thông minh" "Từ Video AI đến thu nhập bằng tiếp thị liên kết" ]
+</div>
+     [/group]
+     [group nhom-dong-nai]
+<div class="col large-12">
+        [select* lop_hoc_thu_dong_nai first_as_label "Chọn Lớp học thử" "AI CYBERSEC Thực chiến: An Ninh Mạng trong kỷ nguyên AI" "Tân binh vi mạch : Thực chiến FPGA & Sensor" "Học xây dựng Web App game trắc nghiệm AI chỉ trong 3 giờ" "Xây dựng AI App & AI DashBoard từ A-Z" "Từ short Video đến thu nhập X+ bằng tiếp thị liên kết" "Visual Marketing cùng AI" "Từ Video AI đến thu nhập bằng tiếp thị liên kết"]
+</div>
+     [/group]
+     [group nhom-hcm]
+<div class="col large-12">
+        [select* lop_hoc_thu_hcm first_as_label "Chọn Lớp học thử" "Trải nghiệm 3 giờ: Ứng dụng Figma trong thiết kế Landing Page" "Xây dựng Web App Game trắc nghiệm AI chỉ trong 3 Giờ" "Chinh phục Drone: Cấu hình, mô phỏng và bay thực tế" "Xây dựng AI App & AI DashBoard từ A-Z" "Visual Marketing cùng AI" "Tư duy thiết kế cùng Canva"]
+</div>
+     [/group]
+
+   <div class="col large-12">
+[acceptance acceptance-9 optional] Đồng ý để dữ liệu cá nhân của Anh/Chị được thu thập trên trang này, được xử lý và lưu trữ bởi Tổ chức giáo dục FPT cho mục đích và theo điều kiện đã được công bố tại Quy định bảo vệ dữ liệu cá nhân của Tổ chức giáo dục FPT. [/acceptance]
+   </div>
+   <div class="col large-12">
+[cf7sr-recaptcha]
+[submit "Đăng ký ngay"]
+   </div>
+</div>
+
+[hidden url-page default:get]
+[hidden utm_source id:utm_source default:get]
+[hidden utm_medium id:utm_medium default:get]
+[hidden utm_campaign id:utm_campaign default:get]
+[hidden utm_term id:utm_term default:get]
+[hidden utm_content id:utm_content default:get]

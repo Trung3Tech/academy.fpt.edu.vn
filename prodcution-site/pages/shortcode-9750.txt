@@ -6,13 +6,13 @@
 
 [ux_image id="10189" image_size="original" width="36" width__sm="36" class="aptech-ts-logo"]
 
-
 [/col]
 [col span="8" span__sm="12" align="right" class="aptech-ts-topbar-phones"]
 
 [ux_text text_align="right" text_align__sm="center"]
 
-<p><span class="aptech-ts-phone-pill">0834 999 810 (HCM)</span></p>
+<span class="aptech-ts-phone-pill">0834 999 810 (HCM)</span>
+
 [/ux_text]
 
 [/col]
@@ -24,12 +24,10 @@
 
 [ux_image id="10387" image_size="original" width="99" height="100%"]
 
-
 [/col]
-[col span="4" span__sm="12" color="light" animate="fadeInRight" class="aptech-ts-hero-form-col"]
+[col span="4" span__sm="12" color="light" animate="fadeInRight" margin="0px 0px 30px 0px" margin__sm="0px 0px 20px 0px" class="aptech-ts-hero-form-col"]
 
 [ux_text font_size="1" line_height="0.75" text_align="center" text_color="rgb(0,0,0)" class="aptech-ts-hero-form-title"]
-
 <h2><strong>Đăng ký tư vấn nhanh</strong></h2>
 [/ux_text]
 [contact-form-7 id="10257"]
@@ -37,7 +35,6 @@
 [/col]
 
 [/row]
-
 [gap height="30px" height__sm="20px"]
 
 [/section]
@@ -88,12 +85,10 @@
 [col span="7" animate="fadeInUp"]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2><strong>FPT Aptech</strong> - đơn vị tiên phong đào tạo</h2>
 <h2>Lập trình viên quốc tế tại Việt Nam từ năm 1999</h2>
 [/ux_text]
 [ux_text font_size="1.25" text_align="left"]
-
 <p style="text-align: justify;">Trực thuộc Tập đoàn FPT,<strong> FPT Aptech đã có hơn 27 năm kinh nghiệm</strong> trong đào tạo CNTT. Chương trình Full-stack kết hợp kiến thức nền tảng, công nghệ doanh nghiệp và thực hành qua dự án thực tế. Người học được phát triển chuyên môn, kỹ năng nghề và tư duy công nghệ, sẵn sàng bước vào môi trường làm việc chuyên nghiệp. Không ngừng cập nhật AI và công nghệ mới, FPT Aptech hướng đến đào tạo thế hệ lập trình viên vững nghề, thích ứng tốt với thị trường.</p>
 [/ux_text]
 
@@ -101,7 +96,6 @@
 [col span="5" span__sm="12"]
 
 [ux_image id="9954" height="75%"]
-
 
 [/col]
 
@@ -115,7 +109,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>Những ai nên tham gia khóa học lập trình tại FPT Aptech?</h2>
 [/ux_text]
 
@@ -127,9 +120,8 @@
 [col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9862" class="aptech-ts-audience-card"]
-
 <h3><span style="color: #333399;">HỌC SINH THPT/GDTX</span></h3>
-<p>Các bạn muốn theo ngành công nghệ thông tin, mong muốn học tập tại môi trường đào tạo Lập trình chuyên nghiệp, chương trình bài bản, đảm bảo đầu ra.</p>
+Các bạn muốn theo ngành công nghệ thông tin, mong muốn học tập tại môi trường đào tạo Lập trình chuyên nghiệp, chương trình bài bản, đảm bảo đầu ra.
 
 [/ux_image_box]
 
@@ -137,9 +129,8 @@
 [col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9899" class="aptech-ts-audience-card"]
-
 <h3><span style="color: #333399;">SINH VIÊN</span></h3>
-<p>Sinh viên khối ngành CNTT/Trái ngành muốn học thêm để trau dồi kỹ năng lập trình, học song song 2 ngành để có thêm nhiều cơ hội việc làm khi tốt nghiệp.</p>
+Sinh viên khối ngành CNTT/Trái ngành muốn học thêm để trau dồi kỹ năng lập trình, học song song 2 ngành để có thêm nhiều cơ hội việc làm khi tốt nghiệp.
 
 [/ux_image_box]
 
@@ -147,9 +138,8 @@
 [col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9892" class="aptech-ts-audience-card"]
-
 <h3><span style="color: #333399;">NGƯỜI ĐI LÀM</span></h3>
-<p>Mong muốn bổ sung kiến thức chuyên môn phục vụ công việc, học thêm để chuyển ngành, tìm kiếm cơ hội công việc có thu nhập hấp dẫn hơn công việc hiện tại.</p>
+Mong muốn bổ sung kiến thức chuyên môn phục vụ công việc, học thêm để chuyển ngành, tìm kiếm cơ hội công việc có thu nhập hấp dẫn hơn công việc hiện tại.
 
 [/ux_image_box]
 
@@ -157,9 +147,8 @@
 [col span="3" span__sm="12" span__md="6" animate="fadeInUp" class="aptech-ts-audience-col"]
 
 [ux_image_box img="9824" class="aptech-ts-audience-card"]
-
 <h3><span style="color: #333399;">BỘ ĐỘI XUẤT NGŨ &amp; DÂN QUÂN TỰ VỆ</span></h3>
-<p>Các đồng chí mới hoàn thành sứ mệnh với đất nước, đang tìm kiếm và lựa chọn ngành nghề sau khi xuất ngũ, yêu thích CNTT và muốn có công việc ổn định.</p>
+Các đồng chí mới hoàn thành sứ mệnh với đất nước, đang tìm kiếm và lựa chọn ngành nghề sau khi xuất ngũ, yêu thích CNTT và muốn có công việc ổn định.
 
 [/ux_image_box]
 
@@ -175,7 +164,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2><span style="color: #ff6600;">6 lý do</span> nên học lập trình tại FPT Aptech</h2>
 [/ux_text]
 
@@ -190,7 +178,8 @@
 
 [ux_text text_align="center"]
 
-<p>Với hơn 27 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam, bạn được đào tạo bài bản từ số 0, sát với thực tế.</p>
+Với hơn 27 năm kinh nghiệm giảng dạy CNTT – Lập Trình tại Việt Nam, bạn được đào tạo bài bản từ số 0, sát với thực tế.
+
 [/ux_text]
 
 [/col]
@@ -200,7 +189,8 @@
 
 [ux_text text_align="center"]
 
-<p>Được ưu tiên thực tập và giới thiệu việc làm tại các công ty thành viên thuộc Tập đoàn FPT.</p>
+Được ưu tiên thực tập và giới thiệu việc làm tại các công ty thành viên thuộc Tập đoàn FPT.
+
 [/ux_text]
 
 [/col]
@@ -210,7 +200,8 @@
 
 [ux_text text_align="center"]
 
-<p>70% thời lượng là thực hành, được học thẳng vào chuyên ngành, không học các môn đại cương.</p>
+70% thời lượng là thực hành, được học thẳng vào chuyên ngành, không học các môn đại cương.
+
 [/ux_text]
 
 [/col]
@@ -220,7 +211,8 @@
 
 [ux_text text_align="center"]
 
-<p>Được dạy & học trên nền tảng EduNext độc quyền của Tập đoàn FPT, rèn giũa kỹ năng tư duy phản biện, giải quyết vấn đề.</p>
+Được dạy &amp; học trên nền tảng EduNext độc quyền của Tập đoàn FPT, rèn giũa kỹ năng tư duy phản biện, giải quyết vấn đề.
+
 [/ux_text]
 
 [/col]
@@ -230,7 +222,8 @@
 
 [ux_text text_align="center"]
 
-<p>Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá trị toàn cầu, có thể làm việc tại các doanh nghiệp trong & ngoài nước.</p>
+Bằng tốt nghiệp ADSE do Tập đoàn Aptech Ấn Độ cấp có giá trị toàn cầu, có thể làm việc tại các doanh nghiệp trong &amp; ngoài nước.
+
 [/ux_text]
 
 [/col]
@@ -240,7 +233,8 @@
 
 [ux_text text_align="center"]
 
-<p>Được học chuyển tiếp để lấy bằng cử nhân tại ĐH FPT hoặc học tại các trường ĐH quốc tế khác.</p>
+Được học chuyển tiếp để lấy bằng cử nhân tại ĐH FPT hoặc học tại các trường ĐH quốc tế khác.
+
 [/ux_text]
 
 [/col]
@@ -255,7 +249,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>CHƯƠNG TRÌNH ĐÀO TẠO LẬP TRÌNH FULL-STACK TÍCH HỢP AI</h2>
 [/ux_text]
 
@@ -267,7 +260,6 @@
 [col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInLeft"]
 
 [ux_text line_height="1.5" class="aptech-ts-semester-title"]
-
 <h1><span style="color: #ff6600;">HỌC KỲ 1</span></h1>
 <h3>Phát triển web app Full-stack với AI</h3>
 [/ux_text]
@@ -275,14 +267,12 @@
 <p style="text-align: left;"><span class="aptech-ts-project-tag"><strong>Project: </strong>AI Powered Website Development</span></p>
 [ux_image id="9983" image_size="original" class="aptech-ts-semester-img"]
 
-
 [/col]
 [col span="6" span__sm="12" padding="40px 0px 0px 0px" animate="fadeInRight"]
 
 [ux_video url="https://www.youtube.com/watch?v=PqBuTJJqLfg" class="aptech-ts-semester-video"]
 
 [ux_text font_size="0.85" text_align="center"]
-
 <h2>Xem thêm đồ án HỌC KỲ 1</h2>
 [/ux_text]
 
@@ -296,7 +286,6 @@
 [ux_video url="https://www.youtube.com/watch?v=VUJD0av26gc" class="aptech-ts-semester-video"]
 
 [ux_text font_size="0.85" text_align="center"]
-
 <h2>Xem thêm đồ án HỌC KỲ 2</h2>
 [/ux_text]
 
@@ -304,14 +293,15 @@
 [col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInRight"]
 
 [ux_text class="aptech-ts-semester-title"]
-
 <h1><span style="color: #ff6600;">HỌC KỲ 2</span></h1>
 <h3>Phân tích dữ liệu, xây dựng ứng dụng AI &amp; Machine Learning</h3>
 [/ux_text]
-<p>Sinh viên sẽ được làm chủ Python – ngôn ngữ phổ biến trong lĩnh vực AI, đồng thời học phân tích và trực quan hóa dữ liệu với Python và Power BI. Từ đó, người học tiếp cận AI, Machine Learning, NLP và Chatbot AI để phát triển các ứng dụng thông minh. Bên cạnh đó, sinh viên được làm quen với Docker và DevOps trong quá trình triển khai ứng dụng.</p>
-<p><span class="aptech-ts-project-tag"><strong>Project:</strong> Python Application Development - Integrate AI</span></p>
-[ux_image id="9990" image_size="original" class="aptech-ts-semester-img"]
 
+Sinh viên sẽ được làm chủ Python – ngôn ngữ phổ biến trong lĩnh vực AI, đồng thời học phân tích và trực quan hóa dữ liệu với Python và Power BI. Từ đó, người học tiếp cận AI, Machine Learning, NLP và Chatbot AI để phát triển các ứng dụng thông minh. Bên cạnh đó, sinh viên được làm quen với Docker và DevOps trong quá trình triển khai ứng dụng.
+
+<span class="aptech-ts-project-tag"><strong>Project:</strong> Python Application Development - Integrate AI</span>
+
+[ux_image id="9990" image_size="original" class="aptech-ts-semester-img"]
 
 [/col]
 
@@ -321,14 +311,15 @@
 [col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInLeft"]
 
 [ux_text class="aptech-ts-semester-title"]
-
 <h1><span style="color: #ff6600;">HỌC KỲ 3</span></h1>
 <h3>Phát triển Hệ thống Microservices với Spring Boot, Ứng dụng Flutter Đa nền tảng &amp; AI</h3>
 [/ux_text]
-<p>Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ liệu với ngôn ngữ lập trình Python, đi sâu vào lập trình website với NodeJS, ASP.NET, Web API, Azure Cloud. Kết hợp với kiến thức Front-end ở Học kỳ 1, sinh viên có thể xây dựng website chuyên nghiệp với quy mô lớn.</p>
-<p><span class="aptech-ts-project-tag"><strong>Project:</strong> Robust Java Applications for Enterprises and Mobile Development - Integrate AI</span></p>
-[ux_image id="10031" image_size="original" class="aptech-ts-semester-img"]
 
+Sinh viên được học về dữ liệu lớn (MongoDB) và phân tích dữ liệu với ngôn ngữ lập trình Python, đi sâu vào lập trình website với NodeJS, ASP.NET, Web API, Azure Cloud. Kết hợp với kiến thức Front-end ở Học kỳ 1, sinh viên có thể xây dựng website chuyên nghiệp với quy mô lớn.
+
+<span class="aptech-ts-project-tag"><strong>Project:</strong> Robust Java Applications for Enterprises and Mobile Development - Integrate AI</span>
+
+[ux_image id="10031" image_size="original" class="aptech-ts-semester-img"]
 
 [/col]
 [col span="6" span__sm="12" padding="40px 0px 0px 0px" animate="fadeInRight"]
@@ -336,7 +327,6 @@
 [ux_video url="https://www.youtube.com/watch?v=RoYCMtW8Kj8" class="aptech-ts-semester-video"]
 
 [ux_text font_size="0.85" text_align="center"]
-
 <h2>Xem thêm đồ án HỌC KỲ 3</h2>
 [/ux_text]
 
@@ -350,7 +340,6 @@
 [ux_video url="https://www.youtube.com/watch?v=Q6MBeFr4rdA" class="aptech-ts-semester-video"]
 
 [ux_text font_size="0.85" text_align="center"]
-
 <h2>Xem thêm đồ án HỌC KỲ 4</h2>
 [/ux_text]
 
@@ -358,20 +347,20 @@
 [col span="6" span__sm="12" padding="20px" padding__sm="10px 0px" animate="fadeInRight"]
 
 [ux_text class="aptech-ts-semester-title"]
-
 <h1><span style="color: #ff6600;">HỌC KỲ 4</span></h1>
 <h3>Generative AI cho hệ sinh thái .NET và công nghệ Blockchain</h3>
 [/ux_text]
-<p>Sinh viên sẽ được tiếp cận lập trình .NET và xây dựng ứng dụng cấp doanh nghiệp, đồng thời triển khai ứng dụng trên nền tảng Microsoft Azure. Bên cạnh đó, người học được ứng dụng Generative AI vào các tính năng thực tế, kết hợp làm quen với Golang và Blockchain – những công nghệ đang được quan tâm trong ngành.</p>
-<p><span class="aptech-ts-project-tag"><strong>Project:</strong> Crafting .NET Applications - Integrate AI / Blockchain</span></p>
-[ux_image id="10033" image_size="original" class="aptech-ts-semester-img"]
 
+Sinh viên sẽ được tiếp cận lập trình .NET và xây dựng ứng dụng cấp doanh nghiệp, đồng thời triển khai ứng dụng trên nền tảng Microsoft Azure. Bên cạnh đó, người học được ứng dụng Generative AI vào các tính năng thực tế, kết hợp làm quen với Golang và Blockchain – những công nghệ đang được quan tâm trong ngành.
+
+<span class="aptech-ts-project-tag"><strong>Project:</strong> Crafting .NET Applications - Integrate AI / Blockchain</span>
+
+[ux_image id="10033" image_size="original" class="aptech-ts-semester-img"]
 
 [/col]
 
 [/row]
 <div id="aptech-hk4-trigger" class="aptech-hk4-anchor" style="width: 100%; height: 1px; margin: 0; padding: 0; opacity: 0; pointer-events: none;"></div>
-
 [/section]
 [section padding="60px 0px 60px 0px"]
 
@@ -380,7 +369,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>CÔNG VIỆC SAU KHI TỐT NGHIỆP</h2>
 [/ux_text]
 
@@ -393,60 +381,50 @@
 
 [ux_image id="9833"]
 
-
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9834"]
-
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9835"]
 
-
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9836"]
-
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9837"]
 
-
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9838"]
-
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9839"]
 
-
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9840"]
-
 
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9841"]
 
-
 [/col]
 [col span="2" span__sm="6" span__md="3" padding="4px" padding__sm="2px" align="center"]
 
 [ux_image id="9842"]
-
 
 [/col]
 
@@ -460,13 +438,12 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>HỌC CHUYỂN TIẾP</h2>
 [/ux_text]
 [ux_text text_align="center"]
-
 <h2><span style="color: #333399;">Trong nước</span></h2>
-<p>FPT Aptech là đơn vị duy nhất được chuyển đổi tín chỉ, học chuyển tiếp để lấy bằng đại học tại Đại học FPT.</p>
+FPT Aptech là đơn vị duy nhất được chuyển đổi tín chỉ, học chuyển tiếp để lấy bằng đại học tại Đại học FPT.
+
 [/ux_text]
 
 [/col]
@@ -480,7 +457,8 @@
 
 [ux_text text_align="center" class="mb-0"]
 
-<p><span style="color: #282828;">FPT University Hà Nội</span></p>
+<span style="color: #282828;">FPT University Hà Nội</span>
+
 [/ux_text]
 
 [/col]
@@ -490,7 +468,8 @@
 
 [ux_text text_align="center" class="mb-0"]
 
-<p><span style="color: #282828;">FPT University TP.HCM</span></p>
+<span style="color: #282828;">FPT University TP.HCM</span>
+
 [/ux_text]
 
 [/col]
@@ -500,7 +479,8 @@
 
 [ux_text text_align="center" class="mb-0"]
 
-<p><span style="color: #282828;">FPT University Đà Nẵng</span></p>
+<span style="color: #282828;">FPT University Đà Nẵng</span>
+
 [/ux_text]
 
 [/col]
@@ -511,9 +491,9 @@
 [col]
 
 [ux_text text_align="center"]
-
 <h2><span style="color: #333399;">Quốc tế</span></h2>
-<p>FPT Aptech còn hợp tác liên thông với các trường đại học hàng đầu thế giới.</p>
+FPT Aptech còn hợp tác liên thông với các trường đại học hàng đầu thế giới.
+
 [/ux_text]
 
 [/col]
@@ -527,7 +507,6 @@
 
 [ux_image id="9890" width="70" link="https://www.mdx.ac.uk/study-with-us/international/support-in-your-country/malaysia" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
 
-
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
@@ -535,14 +514,12 @@
 
 [ux_image id="9864" width="70" link="https://lincoln.edu.my/" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
 
-
 [/col]
 [col span="4" span__sm="12" align="center" animate="fadeInUp" class="aptech-ts-transfer-col aptech-ts-transfer-photo"]
 
 [ux_image id="10151" width="90"]
 
 [ux_image id="9901" width="70" link="https://www.uclan.ac.uk/" target="_blank" rel="noopener" class="aptech-ts-transfer-logo"]
-
 
 [/col]
 
@@ -556,12 +533,12 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>ĐỘI NGŨ GIẢNG VIÊN</h2>
 [/ux_text]
 [ux_text text_align="center"]
 
-<p><em>Một tập thể mạnh mẽ được tạo nên bởi những cái tôi độc đáo. Trong suốt quá trình phát triển, <strong>FPT Aptech</strong> may mắn có một lực lượng giảng viên trẻ trung và luôn khuyến khích sinh viên thể hiện mình, từ đó đóng góp những nhân lực chât lượng cao cho ngành CNTT Việt Nam và Quốc tế</em></p>
+<em>Một tập thể mạnh mẽ được tạo nên bởi những cái tôi độc đáo. Trong suốt quá trình phát triển, <strong>FPT Aptech</strong> may mắn có một lực lượng giảng viên trẻ trung và luôn khuyến khích sinh viên thể hiện mình, từ đó đóng góp những nhân lực chât lượng cao cho ngành CNTT Việt Nam và Quốc tế</em>
+
 [/ux_text]
 
 [/col]
@@ -575,7 +552,7 @@
 
 [ux_text class="aptech-ts-lecturer-card"]
 
-<p><strong>Trần Phước Sinh</strong> — Giám đốc đào tạo FPT Aptech HCM</p>
+<strong>Trần Phước Sinh</strong> — Giám đốc đào tạo FPT Aptech HCM
 <p style="text-align: justify;">Với hơn 24 năm kinh nghiệm đào tạo Lập trình, Thầy Trần Phước Sinh kết hợp kiến thức chuyên môn với thực tiễn nghề nghiệp, giúp sinh viên vững chuyên môn, phát triển tư duy và tự tin chinh phục nghề Lập trình.</p>
 [/ux_text]
 
@@ -586,7 +563,7 @@
 
 [ux_text class="aptech-ts-lecturer-card"]
 
-<p><strong>Nguyễn Hạ Vy</strong> </p>
+<strong>Nguyễn Hạ Vy</strong>
 <p style="text-align: justify;">Từ cựu sinh viên FPT Aptech đến giảng viên, Cô Nguyễn Hạ Vy luôn hướng đến phương pháp giảng dạy dễ hiểu, thực tế, giúp sinh viên hứng thú học Lập trình, vững kiến thức và tự tin ứng dụng vào công việc sau này.</p>
 [/ux_text]
 
@@ -597,7 +574,7 @@
 
 [ux_text class="aptech-ts-lecturer-card"]
 
-<p><strong>Hoàng Đức Quang</strong> </p>
+<strong>Hoàng Đức Quang</strong>
 <p style="text-align: justify;">Là giảng viên xuất sắc tại FPT Aptech, Thầy Hoàng Đức Quang chú trọng kết nối kiến thức với thực tiễn, giúp sinh viên rèn luyện tư duy, kỹ năng giải quyết vấn đề và xây dựng nền tảng vững chắc cho sự nghiệp.</p>
 [/ux_text]
 
@@ -608,7 +585,7 @@
 
 [ux_text class="aptech-ts-lecturer-card"]
 
-<p><strong>Đặng Kim Thi</strong> </p>
+<strong>Đặng Kim Thi</strong>
 <p style="text-align: justify;">Với 14 năm gắn bó cùng Lập trình, Cô Đặng Kim Thi luôn tâm huyết trong từng bài giảng, tận tâm đào tạo thế hệ Lập trình viên vững chuyên môn, yêu nghề và tự tin xây dựng sự nghiệp hạnh phúc.</p>
 [/ux_text]
 
@@ -621,7 +598,6 @@
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
 
-
 [/ux_text]
 
 [/col]
@@ -633,30 +609,25 @@
 
 [ux_image id="9818"]
 
-
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
 [ux_image id="10099"]
-
 
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
 [ux_image id="9820"]
 
-
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
 [ux_image id="9821"]
 
-
 [/col]
 [col span="2" span__sm="4" align="center" animate="fadeInUp" class="aptech-ts-skill-icon"]
 
 [ux_image id="9822"]
-
 
 [/col]
 
@@ -670,25 +641,23 @@
 [col span="7"]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>THÔNG TIN TUYỂN SINH</h2>
 [/ux_text]
 <p style="text-align: justify;"><strong>Đối tượng tuyển sinh:</strong> Học sinh tốt nghiệp THPT, sinh viên người đi làm muốn học thêm hoặc chuyển ngành, bộ đội xuất ngũ, dân quân tự vệ.</p>
 <p style="text-align: left;"><strong>Hình thức tuyển sinh:</strong> Tuyển thẳng, không thi tuyển, xét tuyển.</p>
 <p style="text-align: left;"><strong>Hồ sơ đăng ký gồm:</strong></p>
+
 <ul>
-<li style="text-align: left;">01 Phiếu đăng ký nhập học (theo mẫu)</li>
-<li style="text-align: left;">01 bản sao công chứng CMND/CCCD/Hộ chiếu</li>
-<li style="text-align: left;">01 Phiếu cam kết sinh viên học tập tại trường</li>
+ 	<li style="text-align: left;">01 Phiếu đăng ký nhập học (theo mẫu)</li>
+ 	<li style="text-align: left;">01 bản sao công chứng CMND/CCCD/Hộ chiếu</li>
+ 	<li style="text-align: left;">01 Phiếu cam kết sinh viên học tập tại trường</li>
 </ul>
 [button text="LIÊN THÔNG ĐẠI HỌC ANH QUỐC" link="#aptech-scroll-popup" class="aptech-open-popup-btn" style="shade" radius="10" depth="4" depth_hover="5" expand="0"]
-
 
 [/col]
 [col span="5" span__sm="12"]
 
 [ux_image id="10038" height="100%"]
-
 
 [/col]
 
@@ -702,7 +671,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>CÂU CHUYỆN SINH VIÊN</h2>
 [/ux_text]
 
@@ -718,7 +686,6 @@
 [ux_image id="9898" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_image id="9829" link="https://youtu.be/k7kPj2UE7ys?si=w6y4zaA5ZEbtlbUh" rel="noopener"]
-
 
 [/col]
 [col span="9" span__sm="12"]
@@ -743,7 +710,6 @@
 
 [ux_image id="9827" link="https://www.youtube.com/watch?v=EEHSeOYaXAU" target="_blank" rel="noopener"]
 
-
 [/col]
 [col span="9" span__sm="12"]
 
@@ -766,7 +732,6 @@
 [ux_image id="9893" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_image id="9826" link="https://www.youtube.com/watch?v=ymP3oG-_wYc" target="_blank" rel="noopener"]
-
 
 [/col]
 [col span="9" span__sm="12"]
@@ -791,7 +756,6 @@
 
 [ux_image id="9825" link="https://www.youtube.com/watch?v=MuILkXgkg48" target="_blank" rel="noopener"]
 
-
 [/col]
 [col span="9" span__sm="12"]
 
@@ -815,7 +779,6 @@
 
 [ux_image id="9828" link="https://www.youtube.com/watch?v=OyYwkmYDHho" target="_blank" rel="noopener"]
 
-
 [/col]
 [col span="9" span__sm="12"]
 
@@ -838,7 +801,6 @@
 [ux_image id="9902" width="80" class="aptech-ts-avatar-circle"]
 
 [ux_image id="9830" link="https://www.youtube.com/watch?v=7kvgD-fJqBY" target="_blank" rel="noopener"]
-
 
 [/col]
 [col span="9" span__sm="12"]
@@ -866,7 +828,6 @@
 [col]
 
 [ux_text text_align="center" class="aptech-ts-section-heading"]
-
 <h2>DOANH NGHIỆP LIÊN KẾT TUYỂN DỤNG</h2>
 [/ux_text]
 
@@ -876,12 +837,8 @@
 [row]
 
 [col animate="fadeInUp"]
-
 <div class="aptech-ts-marquee">
-<div class="aptech-ts-marquee-track">
-[ux_image id="9992" width="90"]
-
-[ux_image id="9993" width="90"]
+<div class="aptech-ts-marquee-track">[ux_image id="9992" width="90"][ux_image id="9993" width="90"]
 
 [ux_image id="9994" width="90"]
 
@@ -953,7 +910,6 @@
 
 </div>
 </div>
-
 [/col]
 
 [/row]
@@ -967,38 +923,32 @@
 
 [ux_image id="10390" image_size="original"]
 
-
 [/col]
 [col span="5" span__sm="12" animate="fadeInRight"]
 
 [contact-form-7 id="10263"]
-
 
 [/col]
 
 [/row]
 
 [/section]
-<div class="aptech-ts-sticky-cta"><a href="#aptech-scroll-popup" class="button aptech-open-popup-btn">Đăng ký tư vấn ngay</a></div>
+<div class="aptech-ts-sticky-cta"><a class="button aptech-open-popup-btn" href="#aptech-scroll-popup">Đăng ký tư vấn ngay</a></div>
 <!-- Aptech Scroll Triggered Popup Modal -->
-<div id="aptech-scroll-popup" class="aptech-modal-overlay" style="display: none;" aria-hidden="true" role="dialog" aria-modal="true">
+<div id="aptech-scroll-popup" class="aptech-modal-overlay" style="display: none;" role="dialog" aria-hidden="true" aria-modal="true">
 <div class="aptech-modal-backdrop"></div>
-<div class="aptech-modal-dialog">
-    <button type="button" class="aptech-modal-close" id="aptech-modal-close-btn" aria-label="Đóng popup"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<div class="aptech-modal-dialog"><button id="aptech-modal-close-btn" class="aptech-modal-close" type="button" aria-label="Đóng popup"><svg viewBox="0 0 24 24" width="14" height="14" stroke="currentColor" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg></button>
 <div class="aptech-modal-body">
 <div class="aptech-modal-banner-side">
-<div class="aptech-modal-banner-img-wrap">
-[ux_image id="10390" image_size="original" class="aptech-modal-img"]
-</div>
+<div class="aptech-modal-banner-img-wrap">[ux_image id="10390" image_size="original" class="aptech-modal-img"]</div>
 </div>
 <div class="aptech-modal-form-side">
 <div class="aptech-modal-form-header">
 <h4>Đăng Ký Tư Vấn Nhanh</h4>
-<p>Chuyên viên sẽ liên hệ hỗ trợ Bạn trong 15 phút nhé!</p>
+Chuyên viên sẽ liên hệ hỗ trợ Bạn trong 15 phút nhé!
+
 </div>
-<div class="aptech-modal-cf7-wrap">
-[contact-form-7 id="10257"]
-</div>
+<div class="aptech-modal-cf7-wrap">[contact-form-7 id="10257"]</div>
 </div>
 </div>
 </div>
@@ -1051,14 +1001,7 @@ if(hasTriggered)return;
 if(targetEl){
 var rect=targetEl.getBoundingClientRect();
 var windowHeight=window.innerHeight||document.documentElement.clientHeight;
-if(rect.top<=windowHeight-50){
-openPopup(false);
-window.removeEventListener('scroll',checkScrollTrigger);
-}
-}else{
-var scrollY=window.pageYOffset||document.documentElement.scrollTop;
-var docHeight=document.documentElement.scrollHeight-window.innerHeight;
-if(docHeight>0&&(scrollY/docHeight)>=0.4){
+if(rect.top<=windowHeight-50){ openPopup(false); window.removeEventListener('scroll',checkScrollTrigger); } }else{ var scrollY=window.pageYOffset||document.documentElement.scrollTop; var docHeight=document.documentElement.scrollHeight-window.innerHeight; if(docHeight>0&&(scrollY/docHeight)>=0.4){
 openPopup(false);
 window.removeEventListener('scroll',checkScrollTrigger);
 }
